@@ -355,7 +355,7 @@
           "material": "Caixa Pequena",
           "unidade": "unid",
           "minimo": 10,
-          "saldo": 5,
+          "saldo": 0,
           "historico": [
             {
               "data_hora": "18/08/2026 19:09:19",
@@ -364,6 +364,14 @@
               "saldo_anterior": null,
               "saldo_novo": 5,
               "diferenca": 5
+            },
+            {
+              "data_hora": "18/08/2026 20:53:39",
+              "unidade": "CPQ08",
+              "tipo": "AJUSTE",
+              "saldo_anterior": 5,
+              "saldo_novo": 0,
+              "diferenca": -5
             }
           ]
         },
@@ -372,7 +380,7 @@
           "material": "Caixa Grande",
           "unidade": "unid",
           "minimo": 10,
-          "saldo": 3,
+          "saldo": 0,
           "historico": [
             {
               "data_hora": "18/08/2026 19:09:19",
@@ -381,6 +389,14 @@
               "saldo_anterior": null,
               "saldo_novo": 3,
               "diferenca": 3
+            },
+            {
+              "data_hora": "18/08/2026 20:53:39",
+              "unidade": "CPQ08",
+              "tipo": "AJUSTE",
+              "saldo_anterior": 3,
+              "saldo_novo": 0,
+              "diferenca": -3
             }
           ]
         },
