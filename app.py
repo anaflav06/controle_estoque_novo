@@ -4,6 +4,8 @@ import json
 from pathlib import Path
 from datetime import datetime
 import hashlib
+import io
+import pandas as pd
 
 st.set_page_config(
     page_title="Controle de Estoque",
@@ -81,6 +83,150 @@ def salvar(data):
         return
 
     DB_PATH.write_text(json.dumps(data, ensure_ascii=False, indent=2), encoding="utf-8")
+
+
+def salvar_unidade_seguro(unidade, unidade_data):
+    """
+    Salva somente a unidade alterada.
+    No GitHub, busca sempre o JSON mais recente e faz merge para não
+    sobrescrever dados da outra unidade. Em caso de conflito, tenta novamente.
+    """
+    cfg = _github_config()
+
+    if cfg:
+        import requests, base64
+        token, repo, branch, db_path = cfg
+        url = f"https://api.github.com/repos/{repo}/contents/{db_path}"
+
+        for tentativa in range(3):
+            atual = requests.get(
+                url,
+                headers=_github_headers(token),
+                params={"ref": branch},
+                timeout=20
+            )
+
+            if atual.status_code == 200:
+                payload_atual = atual.json()
+                sha = payload_atual["sha"]
+                conteudo = base64.b64decode(payload_atual["content"]).decode("utf-8")
+                db_mais_recente = json.loads(conteudo)
+            elif atual.status_code == 404:
+                sha = None
+                db_mais_recente = {"unidades": {}}
+            else:
+                raise RuntimeError(
+                    f"Falha ao consultar banco no GitHub (HTTP {atual.status_code})."
+                )
+
+            db_mais_recente.setdefault("unidades", {})
+            db_mais_recente["unidades"][unidade] = unidade_data
+
+            payload = {
+                "message": f"Atualiza estoque {unidade}",
+                "content": base64.b64encode(
+                    json.dumps(db_mais_recente, ensure_ascii=False, indent=2).encode("utf-8")
+                ).decode("ascii"),
+                "branch": branch,
+            }
+            if sha:
+                payload["sha"] = sha
+
+            gravacao = requests.put(
+                url,
+                headers=_github_headers(token),
+                json=payload,
+                timeout=25
+            )
+
+            if gravacao.status_code in (200, 201):
+                return db_mais_recente
+
+            if gravacao.status_code in (409, 422):
+                continue
+
+            raise RuntimeError(
+                f"Falha ao salvar banco no GitHub (HTTP {gravacao.status_code})."
+            )
+
+        raise RuntimeError(
+            "O banco foi alterado por outro usuário ao mesmo tempo. Tente salvar novamente."
+        )
+
+    # Local: relê o JSON antes de gravar e altera somente a unidade atual.
+    if DB_PATH.exists():
+        db_mais_recente = json.loads(DB_PATH.read_text(encoding="utf-8"))
+    else:
+        db_mais_recente = {"unidades": {}}
+
+    db_mais_recente.setdefault("unidades", {})
+    db_mais_recente["unidades"][unidade] = unidade_data
+    DB_PATH.write_text(
+        json.dumps(db_mais_recente, ensure_ascii=False, indent=2),
+        encoding="utf-8"
+    )
+    return db_mais_recente
+
+
+def gerar_excel_bytes(itens_exportar, unidade, titulo):
+    """Gera um Excel simples e profissional em memória."""
+    linhas = []
+    for item in itens_exportar:
+        saldo = 0 if item.get("saldo") is None else int(item["saldo"])
+        minimo = int(item["minimo"])
+        faltam = max(0, minimo - saldo)
+        linhas.append({
+            "Categoria": item["categoria"],
+            "Material": item["material"],
+            "Unidade de medida": item["unidade"],
+            "Saldo atual": saldo,
+            "Estoque mínimo": minimo,
+            "Faltam para o mínimo": faltam,
+        })
+
+    df = pd.DataFrame(linhas)
+    buffer = io.BytesIO()
+
+    with pd.ExcelWriter(buffer, engine="xlsxwriter") as writer:
+        df.to_excel(writer, sheet_name="Estoque", index=False, startrow=2)
+
+        workbook = writer.book
+        worksheet = writer.sheets["Estoque"]
+
+        fmt_titulo = workbook.add_format({
+            "bold": True,
+            "font_size": 16,
+            "font_color": "#FFFFFF",
+            "bg_color": "#1565C0" if unidade == "SAO12" else "#F57C00",
+            "align": "left",
+            "valign": "vcenter",
+        })
+        fmt_header = workbook.add_format({
+            "bold": True,
+            "font_color": "#FFFFFF",
+            "bg_color": "#394B59",
+            "border": 0,
+            "align": "center",
+            "valign": "vcenter",
+        })
+        fmt_int = workbook.add_format({"num_format": "0", "align": "center"})
+        fmt_text = workbook.add_format({"valign": "vcenter"})
+
+        worksheet.merge_range("A1:F1", f"{titulo} — {unidade}", fmt_titulo)
+        worksheet.set_row(0, 28)
+
+        for col_num, value in enumerate(df.columns.values):
+            worksheet.write(2, col_num, value, fmt_header)
+
+        worksheet.set_column("A:A", 29, fmt_text)
+        worksheet.set_column("B:B", 34, fmt_text)
+        worksheet.set_column("C:C", 18, fmt_text)
+        worksheet.set_column("D:F", 18, fmt_int)
+        worksheet.freeze_panes(3, 0)
+
+    buffer.seek(0)
+    return buffer.getvalue()
+
 
 def registrar(item, antes, depois, unidade):
     tipo = "SALDO INICIAL" if antes is None else "AJUSTE"
@@ -437,93 +583,74 @@ categorias = [
     ("ITENS GDS — COPA / LIMPEZA", "section-clean"),
 ]
 
-# Initialize session state separately for each unit
-for idx, item in enumerate(itens):
-    k = key_saldo(unidade, idx)
-    if k not in st.session_state:
-        st.session_state[k] = item.get("saldo")
+# Formulário: alterações nos campos não recarregam a página a cada clique.
+with st.form(key=f"form_estoque_{unidade}", clear_on_submit=False):
+    valores_form = {}
 
-for categoria, classe in categorias:
-    st.markdown(f'<div class="{classe}">{categoria}</div>', unsafe_allow_html=True)
+    for categoria, classe in categorias:
+        st.markdown(f'<div class="{classe}">{categoria}</div>', unsafe_allow_html=True)
 
-    h1, h2, h3, h4, h5 = st.columns([5.0, 1.45, 1.6, .55, .55], gap="small")
-    with h1:
-        st.markdown('<div class="table-head">MATERIAL</div>', unsafe_allow_html=True)
-    with h2:
-        st.markdown('<div class="table-head">MÍNIMO</div>', unsafe_allow_html=True)
-    with h3:
-        st.markdown('<div class="table-head">SALDO ATUAL</div>', unsafe_allow_html=True)
-    with h4:
-        st.markdown('<div class="table-head" style="text-align:center;">−</div>', unsafe_allow_html=True)
-    with h5:
-        st.markdown('<div class="table-head" style="text-align:center;">+</div>', unsafe_allow_html=True)
+        h1, h2, h3 = st.columns([5.4, 1.6, 1.8], gap="small")
+        with h1:
+            st.markdown('<div class="table-head">MATERIAL</div>', unsafe_allow_html=True)
+        with h2:
+            st.markdown('<div class="table-head">MÍNIMO</div>', unsafe_allow_html=True)
+        with h3:
+            st.markdown('<div class="table-head">SALDO ATUAL</div>', unsafe_allow_html=True)
 
-    for idx, item in enumerate(itens):
-        if item["categoria"] != categoria:
-            continue
+        for idx, item in enumerate(itens):
+            if item["categoria"] != categoria:
+                continue
 
-        valor = st.session_state.get(key_saldo(unidade, idx))
-        saldo_visual = 0 if valor is None else int(valor)
+            saldo_atual = 0 if item.get("saldo") is None else int(item["saldo"])
 
-        row_class = "item-row"
-        if saldo_visual == 0:
-            row_class += " zero"
-        elif saldo_visual <= int(item["minimo"]):
-            row_class += " warn"
+            row_class = "item-row"
+            if saldo_atual == 0:
+                row_class += " zero"
+            elif saldo_atual < int(item["minimo"]):
+                row_class += " warn"
 
-        st.markdown(f'<div class="{row_class}">', unsafe_allow_html=True)
-        c1, c2, c3, c4, c5 = st.columns([5.0, 1.45, 1.6, .55, .55], gap="small", vertical_alignment="center")
+            st.markdown(f'<div class="{row_class}">', unsafe_allow_html=True)
+            c1, c2, c3 = st.columns([5.4, 1.6, 1.8], gap="small", vertical_alignment="center")
 
-        with c1:
-            st.markdown(f'<div class="item-name">{item["material"]}</div>', unsafe_allow_html=True)
+            with c1:
+                st.markdown(
+                    f'<div class="item-name">{item["material"]}</div>',
+                    unsafe_allow_html=True
+                )
 
-        with c2:
-            st.markdown(
-                f'<div class="min-text">{int(item["minimo"])} {item["unidade"]}</div>',
-                unsafe_allow_html=True
-            )
+            with c2:
+                st.markdown(
+                    f'<div class="min-text">{int(item["minimo"])} {item["unidade"]}</div>',
+                    unsafe_allow_html=True
+                )
 
-        with c3:
-            st.number_input(
-                "Saldo",
-                min_value=0,
-                step=1,
-                value=valor,
-                placeholder="0",
-                key=key_saldo(unidade, idx),
-                label_visibility="collapsed"
-            )
+            with c3:
+                valores_form[idx] = st.number_input(
+                    "Saldo",
+                    min_value=0,
+                    step=1,
+                    value=saldo_atual,
+                    key=f"form_saldo_{unidade}_{idx}",
+                    label_visibility="collapsed"
+                )
 
-        with c4:
-            st.button(
-                "−",
-                key=f"menos_{unidade}_{idx}",
-                on_click=diminuir,
-                args=(unidade, idx),
-                use_container_width=True
-            )
+            st.markdown("</div>", unsafe_allow_html=True)
 
-        with c5:
-            st.button(
-                "+",
-                key=f"mais_{unidade}_{idx}",
-                on_click=aumentar,
-                args=(unidade, idx),
-                use_container_width=True
-            )
+    st.markdown('<div class="save-area">', unsafe_allow_html=True)
+    salvar_form = st.form_submit_button(
+        "💾 SALVAR ALTERAÇÕES",
+        type="primary",
+        use_container_width=True
+    )
+    st.markdown("</div>", unsafe_allow_html=True)
 
-        st.markdown("</div>", unsafe_allow_html=True)
-
-st.markdown('<div class="save-area">', unsafe_allow_html=True)
-
-if st.button("💾 SALVAR ALTERAÇÕES", type="primary", use_container_width=True, key=f"salvar_{unidade}"):
+if salvar_form:
     alterados = 0
 
     for idx, item in enumerate(itens):
-        novo_ui = st.session_state.get(key_saldo(unidade, idx))
+        novo = int(valores_form[idx])
         antigo = item.get("saldo")
-
-        novo = 0 if novo_ui is None else int(novo_ui)
         antigo_comp = 0 if antigo is None else int(antigo)
 
         if antigo is None or antigo_comp != novo:
@@ -531,71 +658,169 @@ if st.button("💾 SALVAR ALTERAÇÕES", type="primary", use_container_width=Tru
             item["saldo"] = novo
             alterados += 1
 
-    db["unidades"][unidade]["itens"] = itens
+    unidade_data = dict(db["unidades"][unidade])
+    unidade_data["itens"] = itens
+    unidade_data["ultima_atualizacao"] = datetime.now().strftime("%d/%m/%Y %H:%M")
+
     try:
-        salvar(db)
+        db = salvar_unidade_seguro(unidade, unidade_data)
     except Exception as e:
         st.error(f"Não foi possível salvar o estoque. Detalhe: {e}")
         st.stop()
 
+    # Limpa estados antigos da caixa de mensagem e mantém a tela sincronizada.
+    for k in list(st.session_state.keys()):
+        if k.startswith(f"msg_{unidade}_"):
+            del st.session_state[k]
+
     if alterados:
-        st.success(f"Estoque da unidade {unidade} salvo. {alterados} item(ns) atualizado(s).")
+        st.success(
+            f"✅ Estoque da unidade {unidade} salvo com sucesso. "
+            f"{alterados} item(ns) atualizado(s)."
+        )
     else:
         st.info("Nenhuma alteração nova para salvar.")
 
     st.rerun()
 
-st.markdown("</div>", unsafe_allow_html=True)
+# Após salvar/rerun, usa os dados efetivamente persistidos.
+itens = db["unidades"][unidade]["itens"]
 
+# Reposição: somente quando o saldo estiver ABAIXO do mínimo.
+# Assim a mensagem nunca exibe "faltam 0".
 itens_repor = []
-for idx, item in enumerate(itens):
-    valor_ui = st.session_state.get(key_saldo(unidade, idx))
-    saldo = 0 if valor_ui is None else int(valor_ui)
+for item in itens:
+    saldo = 0 if item.get("saldo") is None else int(item["saldo"])
+    minimo = int(item["minimo"])
 
-    if saldo <= int(item["minimo"]):
+    if saldo < minimo:
         item_msg = dict(item)
         item_msg["saldo_exibicao"] = saldo
+        item_msg["faltam"] = minimo - saldo
         itens_repor.append(item_msg)
 
 st.markdown(f"### ⚠️ Solicitação de reposição — {unidade}")
 
 if not itens_repor:
-    st.success("Nenhum material está no estoque mínimo.")
+    st.success("✅ Nenhum material precisa de reposição neste momento.")
 else:
     linhas = [
-        "⚠️ *SOLICITAÇÃO DE REPOSIÇÃO*",
-        f"*Unidade: {unidade}*",
+        "📦 *Olá! Segue solicitação de reposição*",
+        f"🏢 *Unidade: {unidade}*",
         "",
-        "Seguem os materiais que atingiram o estoque mínimo:",
+        "Precisamos dos materiais abaixo:",
         ""
     ]
+
+    icones_categoria = {
+        "MATERIAL OPERACIONAL AZUL": "🔵",
+        "ITENS GDS — ESCRITÓRIO": "🗂️",
+        "ITENS GDS — COPA / LIMPEZA": "🧹",
+    }
 
     for categoria, _ in categorias:
         grupo = [x for x in itens_repor if x["categoria"] == categoria]
         if not grupo:
             continue
 
-        linhas.append(f"*{categoria}*")
+        linhas.append(f"{icones_categoria.get(categoria, '•')} *{categoria}*")
         for item in grupo:
-            saldo = int(item["saldo_exibicao"])
+            faltam = int(item["faltam"])
+            unidade_medida = item["unidade"]
+            verbo = "falta" if faltam == 1 else "faltam"
             linhas.append(
-                f"• {item['material']} — *Saldo: {saldo} {item['unidade']} | "
-                f"Mínimo: {int(item['minimo'])} {item['unidade']}*"
+                f"• {item['material']} — {verbo} *{faltam} {unidade_medida}*"
             )
         linhas.append("")
 
-    linhas.append("📦 *Solicito a reposição dos itens acima.*")
+    linhas.append("🙏 Por gentileza, providenciar os itens acima.")
     mensagem = "\n".join(linhas)
 
-    # A chave da caixa muda junto com o conteúdo da mensagem.
-    # Isso evita que o Streamlit mantenha em cache uma mensagem antiga
-    # depois que o saldo for alterado e salvo.
     msg_hash = hashlib.md5(mensagem.encode("utf-8")).hexdigest()[:10]
 
     st.text_area(
         "Mensagem pronta para WhatsApp",
         value=mensagem,
-        height=300,
+        height=280,
         key=f"msg_{unidade}_{msg_hash}"
     )
     st.caption("Selecione a mensagem e use Ctrl+C para copiar.")
+
+st.markdown("---")
+st.markdown("### 📊 Relatórios rápidos")
+
+# Excel 1 — somente Material Operacional Azul
+itens_operacional = [
+    x for x in itens if x["categoria"] == "MATERIAL OPERACIONAL AZUL"
+]
+excel_operacional = gerar_excel_bytes(
+    itens_operacional,
+    unidade,
+    "Material Operacional Azul"
+)
+
+# Excel 2 — estoque completo da unidade
+excel_completo = gerar_excel_bytes(
+    itens,
+    unidade,
+    "Estoque Completo"
+)
+
+b1, b2 = st.columns(2, gap="medium")
+with b1:
+    st.download_button(
+        "📘 Baixar Excel — Material Operacional Azul",
+        data=excel_operacional,
+        file_name=f"material_operacional_{unidade}.xlsx",
+        mime="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+        use_container_width=True
+    )
+
+with b2:
+    st.download_button(
+        "📗 Baixar Excel — Estoque Completo",
+        data=excel_completo,
+        file_name=f"estoque_completo_{unidade}.xlsx",
+        mime="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+        use_container_width=True
+    )
+
+st.markdown("### 📋 Visão geral do estoque")
+
+linhas_geral = []
+for item in itens:
+    saldo = 0 if item.get("saldo") is None else int(item["saldo"])
+    minimo = int(item["minimo"])
+    faltam = max(0, minimo - saldo)
+
+    linhas_geral.append({
+        "Categoria": item["categoria"],
+        "Material": item["material"],
+        "Saldo": saldo,
+        "Mínimo": minimo,
+        "Faltam": faltam,
+    })
+
+df_geral = pd.DataFrame(linhas_geral)
+
+st.dataframe(
+    df_geral,
+    hide_index=True,
+    use_container_width=True,
+    column_config={
+        "Categoria": st.column_config.TextColumn("Categoria", width="medium"),
+        "Material": st.column_config.TextColumn("Material", width="large"),
+        "Saldo": st.column_config.NumberColumn("Saldo", format="%d"),
+        "Mínimo": st.column_config.NumberColumn("Mínimo", format="%d"),
+        "Faltam": st.column_config.NumberColumn("Faltam", format="%d"),
+    }
+)
+
+ultima = db["unidades"][unidade].get("ultima_atualizacao")
+if ultima:
+    st.caption(f"🕒 Última atualização da unidade: {ultima}")
+
+st.caption(
+    "💾 Os dados continuam sendo salvos no database_estoque.json. "
+    "SAO12 e CPQ08 permanecem com estoques independentes."
+)
