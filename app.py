@@ -284,6 +284,53 @@ header[data-testid="stHeader"] {
     height: 118px;
 }
 
+/* Identificação da unidade ativa */
+.unit-row {
+    margin-top: 16px;
+    margin-bottom: 14px;
+}
+.unit-info-card {
+    border: 2px solid var(--unit-color);
+    background: var(--unit-soft);
+    border-radius: 12px;
+    padding: 11px 16px;
+    box-shadow: 0 2px 8px rgba(0,0,0,.05);
+}
+.unit-info-label {
+    color:#5f6b76;
+    font-size:.78rem;
+    font-weight:700;
+    text-transform:uppercase;
+    letter-spacing:.35px;
+    margin-bottom:1px;
+}
+.unit-info-name {
+    color:var(--unit-color);
+    font-size:1.25rem;
+    font-weight:900;
+    line-height:1.15;
+}
+.unit-dot {
+    display:inline-block;
+    width:10px;
+    height:10px;
+    border-radius:50%;
+    background:var(--unit-color);
+    margin-right:7px;
+}
+.st-key-unit_switch button {
+    background: var(--unit-color) !important;
+    color: white !important;
+    border: 2px solid var(--unit-color) !important;
+    box-shadow: 0 3px 9px var(--unit-shadow) !important;
+    min-height: 48px !important;
+    font-size: .95rem !important;
+}
+.st-key-unit_switch button:hover {
+    filter: brightness(.94);
+    transform: translateY(-1px);
+}
+
 /* Garante espaço seguro no topo da página */
 .block-container {
     padding-top: .5rem !important;
@@ -330,7 +377,31 @@ if unidade not in db.get("unidades", {}):
     st.error("Unidade não encontrada no banco de dados.")
     st.stop()
 
+# Identidade visual por unidade
+if unidade == "SAO12":
+    unit_color = "#1565C0"
+    unit_color_2 = "#0D47A1"
+    unit_soft = "#EAF3FF"
+    unit_shadow = "rgba(21,101,192,.22)"
+else:  # CPQ08
+    unit_color = "#F57C00"
+    unit_color_2 = "#E65100"
+    unit_soft = "#FFF3E0"
+    unit_shadow = "rgba(245,124,0,.24)"
+
 st.markdown(f"""
+<style>
+:root {{
+    --unit-color: {unit_color};
+    --unit-color-2: {unit_color_2};
+    --unit-soft: {unit_soft};
+    --unit-shadow: {unit_shadow};
+}}
+.top-card {{
+    background: linear-gradient(90deg, var(--unit-color-2) 0%, var(--unit-color) 100%) !important;
+    box-shadow: 0 4px 14px var(--unit-shadow) !important;
+}}
+</style>
 <div class="top-card">
     <h1>📦 Controle de Estoque — {unidade}</h1>
     <p>Atualize o saldo sempre que houver retirada ou recebimento de materiais.</p>
@@ -338,11 +409,22 @@ st.markdown(f"""
 <div class="fixed-header-spacer"></div>
 """, unsafe_allow_html=True)
 
-top1, top2 = st.columns([5, 1])
+st.markdown('<div class="unit-row"></div>', unsafe_allow_html=True)
+top1, top2 = st.columns([4.2, 1.35], gap="large", vertical_alignment="center")
+
 with top1:
-    st.caption(f"Unidade selecionada: {unidade}")
+    st.markdown(
+        f"""
+        <div class="unit-info-card">
+            <div class="unit-info-label">Unidade selecionada</div>
+            <div class="unit-info-name"><span class="unit-dot"></span>{unidade}</div>
+        </div>
+        """,
+        unsafe_allow_html=True
+    )
+
 with top2:
-    if st.button("↩ Trocar unidade", use_container_width=True):
+    if st.button("↔  TROCAR UNIDADE", use_container_width=True, key="unit_switch"):
         st.session_state.pop("unidade_selecionada", None)
         st.rerun()
 
