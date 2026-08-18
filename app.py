@@ -3,6 +3,7 @@ import streamlit as st
 import json
 from pathlib import Path
 from datetime import datetime
+import hashlib
 
 st.set_page_config(
     page_title="Controle de Estoque",
@@ -586,10 +587,15 @@ else:
     linhas.append("📦 *Solicito a reposição dos itens acima.*")
     mensagem = "\n".join(linhas)
 
+    # A chave da caixa muda junto com o conteúdo da mensagem.
+    # Isso evita que o Streamlit mantenha em cache uma mensagem antiga
+    # depois que o saldo for alterado e salvo.
+    msg_hash = hashlib.md5(mensagem.encode("utf-8")).hexdigest()[:10]
+
     st.text_area(
         "Mensagem pronta para WhatsApp",
         value=mensagem,
         height=300,
-        key=f"msg_{unidade}"
+        key=f"msg_{unidade}_{msg_hash}"
     )
     st.caption("Selecione a mensagem e use Ctrl+C para copiar.")
