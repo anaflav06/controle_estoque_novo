@@ -1170,7 +1170,7 @@
           "material": "Envelope Azul/Flyer",
           "unidade": "unid",
           "minimo": 20,
-          "saldo": 0,
+          "saldo": 50,
           "historico": [
             {
               "data_hora": "18/08/2026 19:09:19",
@@ -1179,6 +1179,14 @@
               "saldo_anterior": null,
               "saldo_novo": 0,
               "diferenca": 0
+            },
+            {
+              "data_hora": "19/08/2026 12:45:06",
+              "unidade": "CPQ08",
+              "tipo": "AJUSTE",
+              "saldo_anterior": 0,
+              "saldo_novo": 50,
+              "diferenca": 50
             }
           ]
         },
@@ -1187,7 +1195,7 @@
           "material": "Cangurus",
           "unidade": "caixa",
           "minimo": 1,
-          "saldo": 0,
+          "saldo": 3,
           "historico": [
             {
               "data_hora": "18/08/2026 19:09:19",
@@ -1196,6 +1204,14 @@
               "saldo_anterior": null,
               "saldo_novo": 0,
               "diferenca": 0
+            },
+            {
+              "data_hora": "19/08/2026 12:45:06",
+              "unidade": "CPQ08",
+              "tipo": "AJUSTE",
+              "saldo_anterior": 0,
+              "saldo_novo": 3,
+              "diferenca": 3
             }
           ]
         },
@@ -1204,7 +1220,7 @@
           "material": "Filme Stretch",
           "unidade": "unid",
           "minimo": 2,
-          "saldo": 0,
+          "saldo": 36,
           "historico": [
             {
               "data_hora": "18/08/2026 19:09:19",
@@ -1213,6 +1229,14 @@
               "saldo_anterior": null,
               "saldo_novo": 0,
               "diferenca": 0
+            },
+            {
+              "data_hora": "19/08/2026 12:45:06",
+              "unidade": "CPQ08",
+              "tipo": "AJUSTE",
+              "saldo_anterior": 0,
+              "saldo_novo": 36,
+              "diferenca": 36
             }
           ]
         },
@@ -1221,7 +1245,7 @@
           "material": "Lacre",
           "unidade": "pacote",
           "minimo": 1,
-          "saldo": 0,
+          "saldo": 28,
           "historico": [
             {
               "data_hora": "18/08/2026 19:09:19",
@@ -1230,6 +1254,14 @@
               "saldo_anterior": null,
               "saldo_novo": 0,
               "diferenca": 0
+            },
+            {
+              "data_hora": "19/08/2026 12:45:06",
+              "unidade": "CPQ08",
+              "tipo": "AJUSTE",
+              "saldo_anterior": 0,
+              "saldo_novo": 28,
+              "diferenca": 28
             }
           ]
         },
@@ -1238,7 +1270,7 @@
           "material": "Fita Durex Azul",
           "unidade": "unid",
           "minimo": 10,
-          "saldo": 0,
+          "saldo": 36,
           "historico": [
             {
               "data_hora": "18/08/2026 19:09:19",
@@ -1247,6 +1279,14 @@
               "saldo_anterior": null,
               "saldo_novo": 0,
               "diferenca": 0
+            },
+            {
+              "data_hora": "19/08/2026 12:45:06",
+              "unidade": "CPQ08",
+              "tipo": "AJUSTE",
+              "saldo_anterior": 0,
+              "saldo_novo": 36,
+              "diferenca": 36
             }
           ]
         },
@@ -1255,7 +1295,7 @@
           "material": "Fita Durex Transparente",
           "unidade": "unid",
           "minimo": 10,
-          "saldo": 0,
+          "saldo": 648,
           "historico": [
             {
               "data_hora": "18/08/2026 19:09:19",
@@ -1264,6 +1304,14 @@
               "saldo_anterior": null,
               "saldo_novo": 0,
               "diferenca": 0
+            },
+            {
+              "data_hora": "19/08/2026 12:45:06",
+              "unidade": "CPQ08",
+              "tipo": "AJUSTE",
+              "saldo_anterior": 0,
+              "saldo_novo": 648,
+              "diferenca": 648
             }
           ]
         },
@@ -1845,7 +1893,8 @@
             }
           ]
         }
-      ]
+      ],
+      "ultima_atualizacao": "19/08/2026 12:45"
     }
   }
 }
