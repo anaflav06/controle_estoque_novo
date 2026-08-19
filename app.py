@@ -16,6 +16,117 @@ st.set_page_config(
 
 DB_PATH = Path(__file__).with_name("database_estoque.json")
 
+# Estoque mínimo e unidade de medida por unidade.
+CONFIG_ESTOQUE = {
+    "SAO12": {
+        "Caixa Pequena": (10, "unid"),
+        "Caixa Grande": (10, "unid"),
+        "Caixa de Vinho": (10, "unid"),
+        "Envelope Azul/Flyer": (20, "unid"),
+        "Cangurus": (1, "caixa"),
+        "Filme Stretch": (2, "unid"),
+        "Lacre": (1, "pacote"),
+        "Fita Durex Azul": (10, "unid"),
+        "Fita Durex Transparente": (10, "unid"),
+        "Etiqueta Frágil": (1, "bloco"),
+        "Etiqueta Perecíveis": (1, "bloco"),
+        "Etiqueta Heavy": (1, "bloco"),
+        "Etiqueta Especial": (1, "bloco"),
+        "Etiqueta Expresso": (1, "bloco"),
+        "Etiqueta Premium": (1, "bloco"),
+        "Etiqueta Econômico": (1, "bloco"),
+        "Etiqueta Zebra": (5, "unid"),
+        "Ribbon Zebra": (5, "unid"),
+        "Saco Contentor Transparente": (1, "pacote"),
+        "Canetas": (5, "unid"),
+        "Grampos": (1, "caixa"),
+        "Sulfite": (5, "unid"),
+        "Toner / Tinta de Impressora": (1, "unid"),
+        "Caixa de Arquivo de Papelão": (5, "unid"),
+        "Clips": (1, "caixa"),
+        "Elásticos": (1, "caixa"),
+        "Post-it": (1, "pacote"),
+        "Marca-texto": (3, "unid"),
+        "Estilete": (3, "unid"),
+        "Canetão / Caneta Preta Permanente": (3, "unid"),
+        "Açúcar": (1, "unid"),
+        "Café": (1, "unid"),
+        "Copos Descartáveis": (2, "pacote"),
+        "Filtro de Café": (1, "unid"),
+        "Álcool Líquido": (1, "unid"),
+        "Cândida": (1, "unid"),
+        "Detergente": (2, "unid"),
+        "Multiuso": (1, "unid"),
+        "Papel Higiênico": (2, "pacote"),
+        "Papel Toalha": (2, "pacote"),
+        "Sabão em Pó": (1, "unid"),
+        "Saco para Lixeira Pequeno": (1, "pacote"),
+        "Saco para Lixeira Grande": (1, "pacote"),
+    },
+    "CPQ08": {
+        "Caixa Pequena": (10, "unid"),
+        "Caixa Grande": (10, "unid"),
+        "Caixa de Vinho": (10, "unid"),
+        "Envelope Azul/Flyer": (20, "unid"),
+        "Cangurus": (1, "caixa"),
+        "Filme Stretch": (2, "unid"),
+        "Lacre": (2, "caixa"),
+        "Fita Durex Azul": (5, "unid"),
+        "Fita Durex Transparente": (2, "caixa"),
+        "Etiqueta Frágil": (1, "bloco"),
+        "Etiqueta Perecíveis": (1, "bloco"),
+        "Etiqueta Heavy": (1, "bloco"),
+        "Etiqueta Especial": (1, "bloco"),
+        "Etiqueta Expresso": (1, "bloco"),
+        "Etiqueta Premium": (1, "bloco"),
+        "Etiqueta Econômico": (1, "bloco"),
+        "Etiqueta Zebra": (10, "unid"),
+        "Ribbon Zebra": (10, "unid"),
+        "Saco Contentor Transparente": (1, "pacote"),
+        "Canetas": (5, "unid"),
+        "Grampos": (1, "caixa"),
+        "Sulfite": (5, "unid"),
+        "Toner / Tinta de Impressora": (1, "unid"),
+        "Caixa de Arquivo de Papelão": (5, "unid"),
+        "Clips": (1, "caixa"),
+        "Elásticos": (1, "caixa"),
+        "Post-it": (1, "pacote"),
+        "Marca-texto": (3, "unid"),
+        "Estilete": (5, "unid"),
+        "Canetão / Caneta Preta Permanente": (5, "unid"),
+        "Açúcar": (1, "unid"),
+        "Café": (1, "unid"),
+        "Copos Descartáveis": (2, "pacote"),
+        "Filtro de Café": (1, "unid"),
+        "Álcool Líquido": (1, "unid"),
+        "Cândida": (1, "unid"),
+        "Detergente": (2, "unid"),
+        "Multiuso": (1, "unid"),
+        "Papel Higiênico": (2, "pacote"),
+        "Papel Toalha": (2, "pacote"),
+        "Sabão em Pó": (1, "unid"),
+        "Saco para Lixeira Pequeno": (1, "pacote"),
+        "Saco para Lixeira Grande": (1, "pacote"),
+    },
+}
+
+def aplicar_config_estoque(db):
+    if not isinstance(db, dict):
+        return db
+    unidades = db.get("unidades", {})
+    for unidade, cfg in CONFIG_ESTOQUE.items():
+        dados_unidade = unidades.get(unidade)
+        if not isinstance(dados_unidade, dict):
+            continue
+        for item in dados_unidade.get("itens", []):
+            material = item.get("material")
+            if material in cfg:
+                minimo, unidade_medida = cfg[material]
+                item["minimo"] = int(minimo)
+                item["unidade"] = unidade_medida
+    return db
+
+
 def _github_config():
     try:
         token = st.secrets.get("GITHUB_TOKEN", "")
@@ -45,13 +156,13 @@ def carregar():
         if r.status_code == 200:
             payload = r.json()
             conteudo = base64.b64decode(payload["content"]).decode("utf-8")
-            return json.loads(conteudo)
+            return aplicar_config_estoque(json.loads(conteudo))
         elif r.status_code != 404:
             st.error("Não foi possível carregar o banco de dados do GitHub.")
             st.stop()
 
     if DB_PATH.exists():
-        return json.loads(DB_PATH.read_text(encoding="utf-8"))
+        return aplicar_config_estoque(json.loads(DB_PATH.read_text(encoding="utf-8")))
     return {"unidades": {}}
 
 def salvar(data):
@@ -110,7 +221,7 @@ def salvar_unidade_seguro(unidade, unidade_data):
                 payload_atual = atual.json()
                 sha = payload_atual["sha"]
                 conteudo = base64.b64decode(payload_atual["content"]).decode("utf-8")
-                db_mais_recente = json.loads(conteudo)
+                db_mais_recente = aplicar_config_estoque(json.loads(conteudo))
             elif atual.status_code == 404:
                 sha = None
                 db_mais_recente = {"unidades": {}}
@@ -155,7 +266,7 @@ def salvar_unidade_seguro(unidade, unidade_data):
 
     # Local: relê o JSON antes de gravar e altera somente a unidade atual.
     if DB_PATH.exists():
-        db_mais_recente = json.loads(DB_PATH.read_text(encoding="utf-8"))
+        db_mais_recente = aplicar_config_estoque(json.loads(DB_PATH.read_text(encoding="utf-8")))
     else:
         db_mais_recente = {"unidades": {}}
 
