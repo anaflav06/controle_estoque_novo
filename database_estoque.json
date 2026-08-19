@@ -7,7 +7,7 @@
           "material": "Caixa Pequena",
           "unidade": "unid",
           "minimo": 10,
-          "saldo": 4,
+          "saldo": 1,
           "historico": [
             {
               "data_hora": "18/08/2026 20:59:39",
@@ -32,6 +32,14 @@
               "saldo_anterior": 3,
               "saldo_novo": 4,
               "diferenca": 1
+            },
+            {
+              "data_hora": "19/08/2026 12:22:31",
+              "unidade": "SAO12",
+              "tipo": "AJUSTE",
+              "saldo_anterior": 4,
+              "saldo_novo": 1,
+              "diferenca": -3
             }
           ]
         },
@@ -1086,7 +1094,7 @@
           ]
         }
       ],
-      "ultima_atualizacao": "19/08/2026 12:12"
+      "ultima_atualizacao": "19/08/2026 12:22"
     },
     "CPQ08": {
       "itens": [
