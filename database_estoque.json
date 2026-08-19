@@ -1439,7 +1439,7 @@
           "material": "Etiqueta Zebra",
           "unidade": "unid",
           "minimo": 10,
-          "saldo": 0,
+          "saldo": 208,
           "historico": [
             {
               "data_hora": "18/08/2026 19:09:19",
@@ -1448,6 +1448,14 @@
               "saldo_anterior": null,
               "saldo_novo": 0,
               "diferenca": 0
+            },
+            {
+              "data_hora": "19/08/2026 12:47:50",
+              "unidade": "CPQ08",
+              "tipo": "AJUSTE",
+              "saldo_anterior": 0,
+              "saldo_novo": 208,
+              "diferenca": 208
             }
           ]
         },
@@ -1456,7 +1464,7 @@
           "material": "Ribbon Zebra",
           "unidade": "unid",
           "minimo": 10,
-          "saldo": 0,
+          "saldo": 377,
           "historico": [
             {
               "data_hora": "18/08/2026 19:09:19",
@@ -1465,6 +1473,14 @@
               "saldo_anterior": null,
               "saldo_novo": 0,
               "diferenca": 0
+            },
+            {
+              "data_hora": "19/08/2026 12:47:50",
+              "unidade": "CPQ08",
+              "tipo": "AJUSTE",
+              "saldo_anterior": 0,
+              "saldo_novo": 377,
+              "diferenca": 377
             }
           ]
         },
@@ -1473,7 +1489,7 @@
           "material": "Saco Contentor Transparente",
           "unidade": "pacote",
           "minimo": 1,
-          "saldo": 0,
+          "saldo": 1,
           "historico": [
             {
               "data_hora": "18/08/2026 19:09:19",
@@ -1482,6 +1498,14 @@
               "saldo_anterior": null,
               "saldo_novo": 0,
               "diferenca": 0
+            },
+            {
+              "data_hora": "19/08/2026 12:47:50",
+              "unidade": "CPQ08",
+              "tipo": "AJUSTE",
+              "saldo_anterior": 0,
+              "saldo_novo": 1,
+              "diferenca": 1
             }
           ]
         },
@@ -1490,7 +1514,7 @@
           "material": "Canetas",
           "unidade": "unid",
           "minimo": 10,
-          "saldo": 0,
+          "saldo": 20,
           "historico": [
             {
               "data_hora": "18/08/2026 19:09:19",
@@ -1499,6 +1523,14 @@
               "saldo_anterior": null,
               "saldo_novo": 0,
               "diferenca": 0
+            },
+            {
+              "data_hora": "19/08/2026 12:47:50",
+              "unidade": "CPQ08",
+              "tipo": "AJUSTE",
+              "saldo_anterior": 0,
+              "saldo_novo": 20,
+              "diferenca": 20
             }
           ]
         },
@@ -1507,7 +1539,7 @@
           "material": "Grampos",
           "unidade": "caixa",
           "minimo": 1,
-          "saldo": 0,
+          "saldo": 3,
           "historico": [
             {
               "data_hora": "18/08/2026 19:09:19",
@@ -1516,6 +1548,14 @@
               "saldo_anterior": null,
               "saldo_novo": 0,
               "diferenca": 0
+            },
+            {
+              "data_hora": "19/08/2026 12:47:50",
+              "unidade": "CPQ08",
+              "tipo": "AJUSTE",
+              "saldo_anterior": 0,
+              "saldo_novo": 3,
+              "diferenca": 3
             }
           ]
         },
@@ -1524,7 +1564,7 @@
           "material": "Sulfite",
           "unidade": "pacote",
           "minimo": 5,
-          "saldo": 0,
+          "saldo": 1,
           "historico": [
             {
               "data_hora": "18/08/2026 19:09:19",
@@ -1533,6 +1573,14 @@
               "saldo_anterior": null,
               "saldo_novo": 0,
               "diferenca": 0
+            },
+            {
+              "data_hora": "19/08/2026 12:47:50",
+              "unidade": "CPQ08",
+              "tipo": "AJUSTE",
+              "saldo_anterior": 0,
+              "saldo_novo": 1,
+              "diferenca": 1
             }
           ]
         },
@@ -1541,7 +1589,7 @@
           "material": "Toner / Tinta de Impressora",
           "unidade": "unid",
           "minimo": 1,
-          "saldo": 0,
+          "saldo": 1,
           "historico": [
             {
               "data_hora": "18/08/2026 19:09:19",
@@ -1550,6 +1598,14 @@
               "saldo_anterior": null,
               "saldo_novo": 0,
               "diferenca": 0
+            },
+            {
+              "data_hora": "19/08/2026 12:47:50",
+              "unidade": "CPQ08",
+              "tipo": "AJUSTE",
+              "saldo_anterior": 0,
+              "saldo_novo": 1,
+              "diferenca": 1
             }
           ]
         },
@@ -1558,7 +1614,7 @@
           "material": "Caixa de Arquivo de Papelão",
           "unidade": "unid",
           "minimo": 5,
-          "saldo": 0,
+          "saldo": 12,
           "historico": [
             {
               "data_hora": "18/08/2026 19:09:19",
@@ -1567,6 +1623,14 @@
               "saldo_anterior": null,
               "saldo_novo": 0,
               "diferenca": 0
+            },
+            {
+              "data_hora": "19/08/2026 12:47:50",
+              "unidade": "CPQ08",
+              "tipo": "AJUSTE",
+              "saldo_anterior": 0,
+              "saldo_novo": 12,
+              "diferenca": 12
             }
           ]
         },
@@ -1575,7 +1639,7 @@
           "material": "Clips",
           "unidade": "caixa",
           "minimo": 1,
-          "saldo": 0,
+          "saldo": 1,
           "historico": [
             {
               "data_hora": "18/08/2026 19:09:19",
@@ -1584,6 +1648,14 @@
               "saldo_anterior": null,
               "saldo_novo": 0,
               "diferenca": 0
+            },
+            {
+              "data_hora": "19/08/2026 12:47:50",
+              "unidade": "CPQ08",
+              "tipo": "AJUSTE",
+              "saldo_anterior": 0,
+              "saldo_novo": 1,
+              "diferenca": 1
             }
           ]
         },
@@ -1592,7 +1664,7 @@
           "material": "Elásticos",
           "unidade": "caixa",
           "minimo": 1,
-          "saldo": 0,
+          "saldo": 1,
           "historico": [
             {
               "data_hora": "18/08/2026 19:09:19",
@@ -1601,6 +1673,14 @@
               "saldo_anterior": null,
               "saldo_novo": 0,
               "diferenca": 0
+            },
+            {
+              "data_hora": "19/08/2026 12:47:50",
+              "unidade": "CPQ08",
+              "tipo": "AJUSTE",
+              "saldo_anterior": 0,
+              "saldo_novo": 1,
+              "diferenca": 1
             }
           ]
         },
@@ -1609,7 +1689,7 @@
           "material": "Post-it",
           "unidade": "pacote",
           "minimo": 1,
-          "saldo": 0,
+          "saldo": 2,
           "historico": [
             {
               "data_hora": "18/08/2026 19:09:19",
@@ -1618,6 +1698,14 @@
               "saldo_anterior": null,
               "saldo_novo": 0,
               "diferenca": 0
+            },
+            {
+              "data_hora": "19/08/2026 12:47:50",
+              "unidade": "CPQ08",
+              "tipo": "AJUSTE",
+              "saldo_anterior": 0,
+              "saldo_novo": 2,
+              "diferenca": 2
             }
           ]
         },
@@ -1626,7 +1714,7 @@
           "material": "Marca-texto",
           "unidade": "unid",
           "minimo": 3,
-          "saldo": 0,
+          "saldo": 1,
           "historico": [
             {
               "data_hora": "18/08/2026 19:09:19",
@@ -1635,6 +1723,14 @@
               "saldo_anterior": null,
               "saldo_novo": 0,
               "diferenca": 0
+            },
+            {
+              "data_hora": "19/08/2026 12:47:50",
+              "unidade": "CPQ08",
+              "tipo": "AJUSTE",
+              "saldo_anterior": 0,
+              "saldo_novo": 1,
+              "diferenca": 1
             }
           ]
         },
@@ -1894,7 +1990,7 @@
           ]
         }
       ],
-      "ultima_atualizacao": "19/08/2026 12:45"
+      "ultima_atualizacao": "19/08/2026 12:47"
     }
   }
 }
