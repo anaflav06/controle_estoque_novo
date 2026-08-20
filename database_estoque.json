@@ -560,7 +560,7 @@
           "material": "Ribbon Zebra",
           "unidade": "unid",
           "minimo": 5,
-          "saldo": 5,
+          "saldo": 30,
           "historico": [
             {
               "data_hora": "18/08/2026 20:59:39",
@@ -585,6 +585,14 @@
               "saldo_anterior": 1,
               "saldo_novo": 5,
               "diferenca": 4
+            },
+            {
+              "data_hora": "20/08/2026 11:45:59",
+              "unidade": "SAO12",
+              "tipo": "AJUSTE",
+              "saldo_anterior": 5,
+              "saldo_novo": 30,
+              "diferenca": 25
             }
           ]
         },
@@ -618,7 +626,7 @@
           "material": "Canetas",
           "unidade": "unid",
           "minimo": 5,
-          "saldo": 3,
+          "saldo": 50,
           "historico": [
             {
               "data_hora": "18/08/2026 20:59:39",
@@ -643,6 +651,14 @@
               "saldo_anterior": 1,
               "saldo_novo": 3,
               "diferenca": 2
+            },
+            {
+              "data_hora": "20/08/2026 11:45:59",
+              "unidade": "SAO12",
+              "tipo": "AJUSTE",
+              "saldo_anterior": 3,
+              "saldo_novo": 50,
+              "diferenca": 47
             }
           ]
         },
@@ -1165,7 +1181,7 @@
           "material": "Papel Higiênico",
           "unidade": "pacote",
           "minimo": 2,
-          "saldo": 1,
+          "saldo": 2,
           "historico": [
             {
               "data_hora": "18/08/2026 20:59:39",
@@ -1182,6 +1198,14 @@
               "saldo_anterior": 0,
               "saldo_novo": 1,
               "diferenca": 1
+            },
+            {
+              "data_hora": "20/08/2026 11:45:59",
+              "unidade": "SAO12",
+              "tipo": "AJUSTE",
+              "saldo_anterior": 1,
+              "saldo_novo": 2,
+              "diferenca": 1
             }
           ]
         },
@@ -1190,7 +1214,7 @@
           "material": "Papel Toalha",
           "unidade": "pacote",
           "minimo": 2,
-          "saldo": 0,
+          "saldo": 2,
           "historico": [
             {
               "data_hora": "18/08/2026 20:59:39",
@@ -1215,6 +1239,14 @@
               "saldo_anterior": 1,
               "saldo_novo": 0,
               "diferenca": -1
+            },
+            {
+              "data_hora": "20/08/2026 11:45:59",
+              "unidade": "SAO12",
+              "tipo": "AJUSTE",
+              "saldo_anterior": 0,
+              "saldo_novo": 2,
+              "diferenca": 2
             }
           ]
         },
@@ -1310,7 +1342,7 @@
           ]
         }
       ],
-      "ultima_atualizacao": "19/08/2026 13:35"
+      "ultima_atualizacao": "20/08/2026 11:45"
     },
     "CPQ08": {
       "itens": [
