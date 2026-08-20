@@ -526,7 +526,7 @@
           "categoria": "MATERIAL OPERACIONAL AZUL",
           "material": "Etiqueta Zebra",
           "unidade": "unid",
-          "minimo": 10,
+          "minimo": 5,
           "saldo": 8,
           "historico": [
             {
@@ -559,7 +559,7 @@
           "categoria": "MATERIAL OPERACIONAL AZUL",
           "material": "Ribbon Zebra",
           "unidade": "unid",
-          "minimo": 10,
+          "minimo": 5,
           "saldo": 5,
           "historico": [
             {
@@ -617,7 +617,7 @@
           "categoria": "ITENS GDS — ESCRITÓRIO",
           "material": "Canetas",
           "unidade": "unid",
-          "minimo": 10,
+          "minimo": 5,
           "saldo": 3,
           "historico": [
             {
@@ -674,7 +674,7 @@
         {
           "categoria": "ITENS GDS — ESCRITÓRIO",
           "material": "Sulfite",
-          "unidade": "pacote",
+          "unidade": "unid",
           "minimo": 5,
           "saldo": 3,
           "historico": [
@@ -955,7 +955,7 @@
         {
           "categoria": "ITENS GDS — COPA / LIMPEZA",
           "material": "Açúcar",
-          "unidade": "pacote",
+          "unidade": "unid",
           "minimo": 1,
           "saldo": 1,
           "historico": [
@@ -980,7 +980,7 @@
         {
           "categoria": "ITENS GDS — COPA / LIMPEZA",
           "material": "Café",
-          "unidade": "pacote",
+          "unidade": "unid",
           "minimo": 1,
           "saldo": 1,
           "historico": [
@@ -1030,7 +1030,7 @@
         {
           "categoria": "ITENS GDS — COPA / LIMPEZA",
           "material": "Filtro de Café",
-          "unidade": "pacote",
+          "unidade": "unid",
           "minimo": 1,
           "saldo": 1,
           "historico": [
@@ -1246,8 +1246,8 @@
         {
           "categoria": "ITENS GDS — COPA / LIMPEZA",
           "material": "Saco para Lixeira Pequeno",
-          "unidade": "unid",
-          "minimo": 10,
+          "unidade": "pacote",
+          "minimo": 1,
           "saldo": 21,
           "historico": [
             {
@@ -1279,8 +1279,8 @@
         {
           "categoria": "ITENS GDS — COPA / LIMPEZA",
           "material": "Saco para Lixeira Grande",
-          "unidade": "unid",
-          "minimo": 10,
+          "unidade": "pacote",
+          "minimo": 1,
           "saldo": 40,
           "historico": [
             {
@@ -1436,7 +1436,7 @@
           "material": "Filme Stretch",
           "unidade": "unid",
           "minimo": 2,
-          "saldo": 36,
+          "saldo": 106,
           "historico": [
             {
               "data_hora": "18/08/2026 19:09:19",
@@ -1453,15 +1453,23 @@
               "saldo_anterior": 0,
               "saldo_novo": 36,
               "diferenca": 36
+            },
+            {
+              "data_hora": "20/08/2026 10:43:44",
+              "unidade": "CPQ08",
+              "tipo": "AJUSTE",
+              "saldo_anterior": 36,
+              "saldo_novo": 106,
+              "diferenca": 70
             }
           ]
         },
         {
           "categoria": "MATERIAL OPERACIONAL AZUL",
           "material": "Lacre",
-          "unidade": "pacote",
-          "minimo": 1,
-          "saldo": 28,
+          "unidade": "caixa",
+          "minimo": 2,
+          "saldo": 5028,
           "historico": [
             {
               "data_hora": "18/08/2026 19:09:19",
@@ -1478,6 +1486,14 @@
               "saldo_anterior": 0,
               "saldo_novo": 28,
               "diferenca": 28
+            },
+            {
+              "data_hora": "20/08/2026 10:43:44",
+              "unidade": "CPQ08",
+              "tipo": "AJUSTE",
+              "saldo_anterior": 28,
+              "saldo_novo": 5028,
+              "diferenca": 5000
             }
           ]
         },
@@ -1485,7 +1501,7 @@
           "categoria": "MATERIAL OPERACIONAL AZUL",
           "material": "Fita Durex Azul",
           "unidade": "unid",
-          "minimo": 10,
+          "minimo": 5,
           "saldo": 36,
           "historico": [
             {
@@ -1509,9 +1525,9 @@
         {
           "categoria": "MATERIAL OPERACIONAL AZUL",
           "material": "Fita Durex Transparente",
-          "unidade": "unid",
-          "minimo": 10,
-          "saldo": 648,
+          "unidade": "caixa",
+          "minimo": 2,
+          "saldo": 718,
           "historico": [
             {
               "data_hora": "18/08/2026 19:09:19",
@@ -1528,6 +1544,14 @@
               "saldo_anterior": 0,
               "saldo_novo": 648,
               "diferenca": 648
+            },
+            {
+              "data_hora": "20/08/2026 10:43:44",
+              "unidade": "CPQ08",
+              "tipo": "AJUSTE",
+              "saldo_anterior": 648,
+              "saldo_novo": 718,
+              "diferenca": 70
             }
           ]
         },
@@ -1655,7 +1679,7 @@
           "material": "Etiqueta Zebra",
           "unidade": "unid",
           "minimo": 10,
-          "saldo": 208,
+          "saldo": 238,
           "historico": [
             {
               "data_hora": "18/08/2026 19:09:19",
@@ -1672,6 +1696,14 @@
               "saldo_anterior": 0,
               "saldo_novo": 208,
               "diferenca": 208
+            },
+            {
+              "data_hora": "20/08/2026 10:43:44",
+              "unidade": "CPQ08",
+              "tipo": "AJUSTE",
+              "saldo_anterior": 208,
+              "saldo_novo": 238,
+              "diferenca": 30
             }
           ]
         },
@@ -1680,7 +1712,7 @@
           "material": "Ribbon Zebra",
           "unidade": "unid",
           "minimo": 10,
-          "saldo": 377,
+          "saldo": 407,
           "historico": [
             {
               "data_hora": "18/08/2026 19:09:19",
@@ -1697,6 +1729,14 @@
               "saldo_anterior": 0,
               "saldo_novo": 377,
               "diferenca": 377
+            },
+            {
+              "data_hora": "20/08/2026 10:43:44",
+              "unidade": "CPQ08",
+              "tipo": "AJUSTE",
+              "saldo_anterior": 377,
+              "saldo_novo": 407,
+              "diferenca": 30
             }
           ]
         },
@@ -1729,7 +1769,7 @@
           "categoria": "ITENS GDS — ESCRITÓRIO",
           "material": "Canetas",
           "unidade": "unid",
-          "minimo": 10,
+          "minimo": 5,
           "saldo": 20,
           "historico": [
             {
@@ -1778,7 +1818,7 @@
         {
           "categoria": "ITENS GDS — ESCRITÓRIO",
           "material": "Sulfite",
-          "unidade": "pacote",
+          "unidade": "unid",
           "minimo": 5,
           "saldo": 1,
           "historico": [
@@ -1954,7 +1994,7 @@
           "categoria": "ITENS GDS — ESCRITÓRIO",
           "material": "Estilete",
           "unidade": "unid",
-          "minimo": 3,
+          "minimo": 5,
           "saldo": 12,
           "historico": [
             {
@@ -1979,7 +2019,7 @@
           "categoria": "ITENS GDS — ESCRITÓRIO",
           "material": "Canetão / Caneta Preta Permanente",
           "unidade": "unid",
-          "minimo": 3,
+          "minimo": 5,
           "saldo": 5,
           "historico": [
             {
@@ -2003,7 +2043,7 @@
         {
           "categoria": "ITENS GDS — COPA / LIMPEZA",
           "material": "Açúcar",
-          "unidade": "pacote",
+          "unidade": "unid",
           "minimo": 1,
           "saldo": 0,
           "historico": [
@@ -2020,7 +2060,7 @@
         {
           "categoria": "ITENS GDS — COPA / LIMPEZA",
           "material": "Café",
-          "unidade": "pacote",
+          "unidade": "unid",
           "minimo": 1,
           "saldo": 1,
           "historico": [
@@ -2070,7 +2110,7 @@
         {
           "categoria": "ITENS GDS — COPA / LIMPEZA",
           "material": "Filtro de Café",
-          "unidade": "pacote",
+          "unidade": "unid",
           "minimo": 1,
           "saldo": 0,
           "historico": [
@@ -2254,8 +2294,8 @@
         {
           "categoria": "ITENS GDS — COPA / LIMPEZA",
           "material": "Saco para Lixeira Pequeno",
-          "unidade": "unid",
-          "minimo": 10,
+          "unidade": "pacote",
+          "minimo": 1,
           "saldo": 20,
           "historico": [
             {
@@ -2279,8 +2319,8 @@
         {
           "categoria": "ITENS GDS — COPA / LIMPEZA",
           "material": "Saco para Lixeira Grande",
-          "unidade": "unid",
-          "minimo": 10,
+          "unidade": "pacote",
+          "minimo": 1,
           "saldo": 20,
           "historico": [
             {
@@ -2302,7 +2342,7 @@
           ]
         }
       ],
-      "ultima_atualizacao": "19/08/2026 13:14"
+      "ultima_atualizacao": "20/08/2026 10:43"
     }
   }
 }
