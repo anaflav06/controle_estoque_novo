@@ -1589,7 +1589,7 @@
           "material": "Lacre",
           "unidade": "caixa",
           "minimo": 2,
-          "saldo": 5028,
+          "saldo": 3,
           "historico": [
             {
               "data_hora": "18/08/2026 19:09:19",
@@ -1614,6 +1614,14 @@
               "saldo_anterior": 28,
               "saldo_novo": 5028,
               "diferenca": 5000
+            },
+            {
+              "data_hora": "21/08/2026 10:34:11",
+              "unidade": "CPQ08",
+              "tipo": "AJUSTE",
+              "saldo_anterior": 5028,
+              "saldo_novo": 3,
+              "diferenca": -5025
             }
           ]
         },
@@ -1647,7 +1655,7 @@
           "material": "Fita Durex Transparente",
           "unidade": "caixa",
           "minimo": 2,
-          "saldo": 718,
+          "saldo": 8,
           "historico": [
             {
               "data_hora": "18/08/2026 19:09:19",
@@ -1672,6 +1680,14 @@
               "saldo_anterior": 648,
               "saldo_novo": 718,
               "diferenca": 70
+            },
+            {
+              "data_hora": "21/08/2026 10:34:11",
+              "unidade": "CPQ08",
+              "tipo": "AJUSTE",
+              "saldo_anterior": 718,
+              "saldo_novo": 8,
+              "diferenca": -710
             }
           ]
         },
@@ -2566,7 +2582,7 @@
           ]
         }
       ],
-      "ultima_atualizacao": "20/08/2026 11:02"
+      "ultima_atualizacao": "21/08/2026 10:34"
     }
   }
 }
