@@ -814,7 +814,7 @@
           "material": "Caixa de Arquivo de Papelão",
           "unidade": "unid",
           "minimo": 5,
-          "saldo": 0,
+          "saldo": 2,
           "historico": [
             {
               "data_hora": "18/08/2026 20:59:39",
@@ -839,6 +839,14 @@
               "saldo_anterior": 1,
               "saldo_novo": 0,
               "diferenca": -1
+            },
+            {
+              "data_hora": "24/08/2026 19:52:32",
+              "unidade": "SAO12",
+              "tipo": "AJUSTE",
+              "saldo_anterior": 0,
+              "saldo_novo": 2,
+              "diferenca": 2
             }
           ]
         },
@@ -1119,7 +1127,7 @@
           "material": "Copos Descartáveis",
           "unidade": "pacote",
           "minimo": 2,
-          "saldo": 2,
+          "saldo": 1,
           "historico": [
             {
               "data_hora": "18/08/2026 20:59:39",
@@ -1144,6 +1152,14 @@
               "saldo_anterior": 1,
               "saldo_novo": 2,
               "diferenca": 1
+            },
+            {
+              "data_hora": "24/08/2026 19:52:32",
+              "unidade": "SAO12",
+              "tipo": "AJUSTE",
+              "saldo_anterior": 2,
+              "saldo_novo": 1,
+              "diferenca": -1
             }
           ]
         },
@@ -1301,7 +1317,7 @@
           "material": "Papel Higiênico",
           "unidade": "pacote",
           "minimo": 2,
-          "saldo": 2,
+          "saldo": 1,
           "historico": [
             {
               "data_hora": "18/08/2026 20:59:39",
@@ -1326,6 +1342,14 @@
               "saldo_anterior": 1,
               "saldo_novo": 2,
               "diferenca": 1
+            },
+            {
+              "data_hora": "24/08/2026 19:52:32",
+              "unidade": "SAO12",
+              "tipo": "AJUSTE",
+              "saldo_anterior": 2,
+              "saldo_novo": 1,
+              "diferenca": -1
             }
           ]
         },
@@ -1400,7 +1424,7 @@
           "material": "Saco para Lixeira Pequeno",
           "unidade": "pacote",
           "minimo": 1,
-          "saldo": 21,
+          "saldo": 1,
           "historico": [
             {
               "data_hora": "18/08/2026 20:59:39",
@@ -1425,6 +1449,14 @@
               "saldo_anterior": 1,
               "saldo_novo": 21,
               "diferenca": 20
+            },
+            {
+              "data_hora": "24/08/2026 19:52:32",
+              "unidade": "SAO12",
+              "tipo": "AJUSTE",
+              "saldo_anterior": 21,
+              "saldo_novo": 1,
+              "diferenca": -20
             }
           ]
         },
@@ -1433,7 +1465,7 @@
           "material": "Saco para Lixeira Grande",
           "unidade": "pacote",
           "minimo": 1,
-          "saldo": 40,
+          "saldo": 1,
           "historico": [
             {
               "data_hora": "18/08/2026 20:59:39",
@@ -1458,11 +1490,19 @@
               "saldo_anterior": 1,
               "saldo_novo": 40,
               "diferenca": 39
+            },
+            {
+              "data_hora": "24/08/2026 19:52:32",
+              "unidade": "SAO12",
+              "tipo": "AJUSTE",
+              "saldo_anterior": 40,
+              "saldo_novo": 1,
+              "diferenca": -39
             }
           ]
         }
       ],
-      "ultima_atualizacao": "24/08/2026 19:51"
+      "ultima_atualizacao": "24/08/2026 19:52"
     },
     "CPQ08": {
       "itens": [
