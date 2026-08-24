@@ -246,7 +246,7 @@
           "material": "Fita Durex Azul",
           "unidade": "unid",
           "minimo": 10,
-          "saldo": 24,
+          "saldo": 23,
           "historico": [
             {
               "data_hora": "18/08/2026 20:59:39",
@@ -271,6 +271,14 @@
               "saldo_anterior": 1,
               "saldo_novo": 24,
               "diferenca": 23
+            },
+            {
+              "data_hora": "24/08/2026 19:51:42",
+              "unidade": "SAO12",
+              "tipo": "AJUSTE",
+              "saldo_anterior": 24,
+              "saldo_novo": 23,
+              "diferenca": -1
             }
           ]
         },
@@ -279,7 +287,7 @@
           "material": "Fita Durex Transparente",
           "unidade": "unid",
           "minimo": 10,
-          "saldo": 18,
+          "saldo": 17,
           "historico": [
             {
               "data_hora": "18/08/2026 20:59:39",
@@ -304,6 +312,14 @@
               "saldo_anterior": 1,
               "saldo_novo": 18,
               "diferenca": 17
+            },
+            {
+              "data_hora": "24/08/2026 19:51:42",
+              "unidade": "SAO12",
+              "tipo": "AJUSTE",
+              "saldo_anterior": 18,
+              "saldo_novo": 17,
+              "diferenca": -1
             }
           ]
         },
@@ -312,7 +328,7 @@
           "material": "Etiqueta Frágil",
           "unidade": "bloco",
           "minimo": 1,
-          "saldo": 6,
+          "saldo": 5,
           "historico": [
             {
               "data_hora": "18/08/2026 20:59:39",
@@ -337,6 +353,14 @@
               "saldo_anterior": 1,
               "saldo_novo": 6,
               "diferenca": 5
+            },
+            {
+              "data_hora": "24/08/2026 19:51:42",
+              "unidade": "SAO12",
+              "tipo": "AJUSTE",
+              "saldo_anterior": 6,
+              "saldo_novo": 5,
+              "diferenca": -1
             }
           ]
         },
@@ -436,7 +460,7 @@
           "material": "Etiqueta Expresso",
           "unidade": "bloco",
           "minimo": 1,
-          "saldo": 4,
+          "saldo": 3,
           "historico": [
             {
               "data_hora": "18/08/2026 20:59:39",
@@ -461,6 +485,14 @@
               "saldo_anterior": 1,
               "saldo_novo": 4,
               "diferenca": 3
+            },
+            {
+              "data_hora": "24/08/2026 19:51:42",
+              "unidade": "SAO12",
+              "tipo": "AJUSTE",
+              "saldo_anterior": 4,
+              "saldo_novo": 3,
+              "diferenca": -1
             }
           ]
         },
@@ -560,7 +592,7 @@
           "material": "Ribbon Zebra",
           "unidade": "unid",
           "minimo": 5,
-          "saldo": 30,
+          "saldo": 29,
           "historico": [
             {
               "data_hora": "18/08/2026 20:59:39",
@@ -593,6 +625,14 @@
               "saldo_anterior": 5,
               "saldo_novo": 30,
               "diferenca": 25
+            },
+            {
+              "data_hora": "24/08/2026 19:51:42",
+              "unidade": "SAO12",
+              "tipo": "AJUSTE",
+              "saldo_anterior": 30,
+              "saldo_novo": 29,
+              "diferenca": -1
             }
           ]
         },
@@ -626,7 +666,7 @@
           "material": "Canetas",
           "unidade": "unid",
           "minimo": 5,
-          "saldo": 50,
+          "saldo": 3,
           "historico": [
             {
               "data_hora": "18/08/2026 20:59:39",
@@ -659,6 +699,14 @@
               "saldo_anterior": 3,
               "saldo_novo": 50,
               "diferenca": 47
+            },
+            {
+              "data_hora": "24/08/2026 19:51:42",
+              "unidade": "SAO12",
+              "tipo": "AJUSTE",
+              "saldo_anterior": 50,
+              "saldo_novo": 3,
+              "diferenca": -47
             }
           ]
         },
@@ -1414,7 +1462,7 @@
           ]
         }
       ],
-      "ultima_atualizacao": "20/08/2026 11:47"
+      "ultima_atualizacao": "24/08/2026 19:51"
     },
     "CPQ08": {
       "itens": [
