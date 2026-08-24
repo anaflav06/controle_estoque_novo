@@ -666,7 +666,7 @@
           "material": "Canetas",
           "unidade": "unid",
           "minimo": 5,
-          "saldo": 3,
+          "saldo": 10,
           "historico": [
             {
               "data_hora": "18/08/2026 20:59:39",
@@ -707,6 +707,14 @@
               "saldo_anterior": 50,
               "saldo_novo": 3,
               "diferenca": -47
+            },
+            {
+              "data_hora": "24/08/2026 20:05:53",
+              "unidade": "SAO12",
+              "tipo": "AJUSTE",
+              "saldo_anterior": 3,
+              "saldo_novo": 10,
+              "diferenca": 7
             }
           ]
         },
@@ -1502,7 +1510,7 @@
           ]
         }
       ],
-      "ultima_atualizacao": "24/08/2026 19:52"
+      "ultima_atualizacao": "24/08/2026 20:05"
     },
     "CPQ08": {
       "itens": [
