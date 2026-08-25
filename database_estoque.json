@@ -1333,7 +1333,7 @@
           "material": "Papel Higiênico",
           "unidade": "pacote",
           "minimo": 2,
-          "saldo": 1,
+          "saldo": 2,
           "historico": [
             {
               "data_hora": "18/08/2026 20:59:39",
@@ -1366,6 +1366,14 @@
               "saldo_anterior": 2,
               "saldo_novo": 1,
               "diferenca": -1
+            },
+            {
+              "data_hora": "25/08/2026 14:35:32",
+              "unidade": "SAO12",
+              "tipo": "AJUSTE",
+              "saldo_anterior": 1,
+              "saldo_novo": 2,
+              "diferenca": 1
             }
           ]
         },
@@ -1518,7 +1526,7 @@
           ]
         }
       ],
-      "ultima_atualizacao": "25/08/2026 14:34"
+      "ultima_atualizacao": "25/08/2026 14:35"
     },
     "CPQ08": {
       "itens": [
