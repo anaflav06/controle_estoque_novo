@@ -822,7 +822,7 @@
           "material": "Caixa de Arquivo de Papelão",
           "unidade": "unid",
           "minimo": 5,
-          "saldo": 2,
+          "saldo": 4,
           "historico": [
             {
               "data_hora": "18/08/2026 20:59:39",
@@ -854,6 +854,14 @@
               "tipo": "AJUSTE",
               "saldo_anterior": 0,
               "saldo_novo": 2,
+              "diferenca": 2
+            },
+            {
+              "data_hora": "25/08/2026 14:34:43",
+              "unidade": "SAO12",
+              "tipo": "AJUSTE",
+              "saldo_anterior": 2,
+              "saldo_novo": 4,
               "diferenca": 2
             }
           ]
@@ -1510,7 +1518,7 @@
           ]
         }
       ],
-      "ultima_atualizacao": "24/08/2026 20:05"
+      "ultima_atualizacao": "25/08/2026 14:34"
     },
     "CPQ08": {
       "itens": [
