@@ -1618,7 +1618,7 @@
           "material": "Envelope Azul/Flyer",
           "unidade": "unid",
           "minimo": 20,
-          "saldo": 50,
+          "saldo": 49,
           "historico": [
             {
               "data_hora": "18/08/2026 19:09:19",
@@ -1635,6 +1635,14 @@
               "saldo_anterior": 0,
               "saldo_novo": 50,
               "diferenca": 50
+            },
+            {
+              "data_hora": "26/08/2026 11:59:47",
+              "unidade": "CPQ08",
+              "tipo": "AJUSTE",
+              "saldo_anterior": 50,
+              "saldo_novo": 49,
+              "diferenca": -1
             }
           ]
         },
@@ -1668,7 +1676,7 @@
           "material": "Filme Stretch",
           "unidade": "unid",
           "minimo": 2,
-          "saldo": 106,
+          "saldo": 92,
           "historico": [
             {
               "data_hora": "18/08/2026 19:09:19",
@@ -1693,6 +1701,14 @@
               "saldo_anterior": 36,
               "saldo_novo": 106,
               "diferenca": 70
+            },
+            {
+              "data_hora": "26/08/2026 11:59:47",
+              "unidade": "CPQ08",
+              "tipo": "AJUSTE",
+              "saldo_anterior": 106,
+              "saldo_novo": 92,
+              "diferenca": -14
             }
           ]
         },
@@ -1701,7 +1717,7 @@
           "material": "Lacre",
           "unidade": "caixa",
           "minimo": 2,
-          "saldo": 3,
+          "saldo": 2,
           "historico": [
             {
               "data_hora": "18/08/2026 19:09:19",
@@ -1734,6 +1750,14 @@
               "saldo_anterior": 5028,
               "saldo_novo": 3,
               "diferenca": -5025
+            },
+            {
+              "data_hora": "26/08/2026 11:59:47",
+              "unidade": "CPQ08",
+              "tipo": "AJUSTE",
+              "saldo_anterior": 3,
+              "saldo_novo": 2,
+              "diferenca": -1
             }
           ]
         },
@@ -2365,7 +2389,7 @@
           "material": "Açúcar",
           "unidade": "unid",
           "minimo": 1,
-          "saldo": 1,
+          "saldo": 0,
           "historico": [
             {
               "data_hora": "18/08/2026 19:09:19",
@@ -2382,6 +2406,14 @@
               "saldo_anterior": 0,
               "saldo_novo": 1,
               "diferenca": 1
+            },
+            {
+              "data_hora": "26/08/2026 11:59:47",
+              "unidade": "CPQ08",
+              "tipo": "AJUSTE",
+              "saldo_anterior": 1,
+              "saldo_novo": 0,
+              "diferenca": -1
             }
           ]
         },
@@ -2390,7 +2422,7 @@
           "material": "Café",
           "unidade": "unid",
           "minimo": 1,
-          "saldo": 1,
+          "saldo": 0,
           "historico": [
             {
               "data_hora": "18/08/2026 19:09:19",
@@ -2407,6 +2439,14 @@
               "saldo_anterior": 0,
               "saldo_novo": 1,
               "diferenca": 1
+            },
+            {
+              "data_hora": "26/08/2026 11:59:47",
+              "unidade": "CPQ08",
+              "tipo": "AJUSTE",
+              "saldo_anterior": 1,
+              "saldo_novo": 0,
+              "diferenca": -1
             }
           ]
         },
@@ -2415,7 +2455,7 @@
           "material": "Copos Descartáveis",
           "unidade": "pacote",
           "minimo": 2,
-          "saldo": 0,
+          "saldo": 1,
           "historico": [
             {
               "data_hora": "18/08/2026 19:09:19",
@@ -2440,6 +2480,14 @@
               "saldo_anterior": 2,
               "saldo_novo": 0,
               "diferenca": -2
+            },
+            {
+              "data_hora": "26/08/2026 11:59:47",
+              "unidade": "CPQ08",
+              "tipo": "AJUSTE",
+              "saldo_anterior": 0,
+              "saldo_novo": 1,
+              "diferenca": 1
             }
           ]
         },
@@ -2606,7 +2654,7 @@
           "material": "Papel Toalha",
           "unidade": "pacote",
           "minimo": 2,
-          "saldo": 1,
+          "saldo": 0,
           "historico": [
             {
               "data_hora": "18/08/2026 19:09:19",
@@ -2638,6 +2686,14 @@
               "tipo": "AJUSTE",
               "saldo_anterior": 2,
               "saldo_novo": 1,
+              "diferenca": -1
+            },
+            {
+              "data_hora": "26/08/2026 11:59:47",
+              "unidade": "CPQ08",
+              "tipo": "AJUSTE",
+              "saldo_anterior": 1,
+              "saldo_novo": 0,
               "diferenca": -1
             }
           ]
@@ -2718,7 +2774,7 @@
           ]
         }
       ],
-      "ultima_atualizacao": "24/08/2026 13:28"
+      "ultima_atualizacao": "26/08/2026 11:59"
     }
   }
 }
