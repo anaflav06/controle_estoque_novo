@@ -2477,7 +2477,7 @@
           "material": "Açúcar",
           "unidade": "unid",
           "minimo": 1,
-          "saldo": 0,
+          "saldo": 1,
           "historico": [
             {
               "data_hora": "18/08/2026 19:09:19",
@@ -2502,6 +2502,14 @@
               "saldo_anterior": 1,
               "saldo_novo": 0,
               "diferenca": -1
+            },
+            {
+              "data_hora": "27/08/2026 10:20:17",
+              "unidade": "CPQ08",
+              "tipo": "AJUSTE",
+              "saldo_anterior": 0,
+              "saldo_novo": 1,
+              "diferenca": 1
             }
           ]
         },
@@ -2510,7 +2518,7 @@
           "material": "Café",
           "unidade": "unid",
           "minimo": 1,
-          "saldo": 0,
+          "saldo": 1,
           "historico": [
             {
               "data_hora": "18/08/2026 19:09:19",
@@ -2535,6 +2543,14 @@
               "saldo_anterior": 1,
               "saldo_novo": 0,
               "diferenca": -1
+            },
+            {
+              "data_hora": "27/08/2026 10:20:17",
+              "unidade": "CPQ08",
+              "tipo": "AJUSTE",
+              "saldo_anterior": 0,
+              "saldo_novo": 1,
+              "diferenca": 1
             }
           ]
         },
@@ -2886,7 +2902,7 @@
           ]
         }
       ],
-      "ultima_atualizacao": "27/08/2026 10:08"
+      "ultima_atualizacao": "27/08/2026 10:20"
     }
   }
 }
