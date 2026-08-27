@@ -1618,7 +1618,7 @@
           "material": "Envelope Azul/Flyer",
           "unidade": "unid",
           "minimo": 20,
-          "saldo": 49,
+          "saldo": 99,
           "historico": [
             {
               "data_hora": "18/08/2026 19:09:19",
@@ -1643,6 +1643,14 @@
               "saldo_anterior": 50,
               "saldo_novo": 49,
               "diferenca": -1
+            },
+            {
+              "data_hora": "27/08/2026 10:08:38",
+              "unidade": "CPQ08",
+              "tipo": "AJUSTE",
+              "saldo_anterior": 49,
+              "saldo_novo": 99,
+              "diferenca": 50
             }
           ]
         },
@@ -1676,7 +1684,7 @@
           "material": "Filme Stretch",
           "unidade": "unid",
           "minimo": 2,
-          "saldo": 92,
+          "saldo": 90,
           "historico": [
             {
               "data_hora": "18/08/2026 19:09:19",
@@ -1709,6 +1717,14 @@
               "saldo_anterior": 106,
               "saldo_novo": 92,
               "diferenca": -14
+            },
+            {
+              "data_hora": "27/08/2026 10:08:38",
+              "unidade": "CPQ08",
+              "tipo": "AJUSTE",
+              "saldo_anterior": 92,
+              "saldo_novo": 90,
+              "diferenca": -2
             }
           ]
         },
@@ -1717,7 +1733,7 @@
           "material": "Lacre",
           "unidade": "caixa",
           "minimo": 2,
-          "saldo": 2,
+          "saldo": 3,
           "historico": [
             {
               "data_hora": "18/08/2026 19:09:19",
@@ -1758,6 +1774,14 @@
               "saldo_anterior": 3,
               "saldo_novo": 2,
               "diferenca": -1
+            },
+            {
+              "data_hora": "27/08/2026 10:08:38",
+              "unidade": "CPQ08",
+              "tipo": "AJUSTE",
+              "saldo_anterior": 2,
+              "saldo_novo": 3,
+              "diferenca": 1
             }
           ]
         },
@@ -1766,7 +1790,7 @@
           "material": "Fita Durex Azul",
           "unidade": "unid",
           "minimo": 5,
-          "saldo": 36,
+          "saldo": 41,
           "historico": [
             {
               "data_hora": "18/08/2026 19:09:19",
@@ -1783,6 +1807,14 @@
               "saldo_anterior": 0,
               "saldo_novo": 36,
               "diferenca": 36
+            },
+            {
+              "data_hora": "27/08/2026 10:08:38",
+              "unidade": "CPQ08",
+              "tipo": "AJUSTE",
+              "saldo_anterior": 36,
+              "saldo_novo": 41,
+              "diferenca": 5
             }
           ]
         },
@@ -1832,7 +1864,7 @@
           "material": "Etiqueta Frágil",
           "unidade": "bloco",
           "minimo": 1,
-          "saldo": 1,
+          "saldo": 2,
           "historico": [
             {
               "data_hora": "18/08/2026 19:09:19",
@@ -1848,6 +1880,14 @@
               "tipo": "AJUSTE",
               "saldo_anterior": 0,
               "saldo_novo": 1,
+              "diferenca": 1
+            },
+            {
+              "data_hora": "27/08/2026 10:08:38",
+              "unidade": "CPQ08",
+              "tipo": "AJUSTE",
+              "saldo_anterior": 1,
+              "saldo_novo": 2,
               "diferenca": 1
             }
           ]
@@ -1857,7 +1897,7 @@
           "material": "Etiqueta Perecíveis",
           "unidade": "bloco",
           "minimo": 1,
-          "saldo": 1,
+          "saldo": 2,
           "historico": [
             {
               "data_hora": "18/08/2026 19:09:19",
@@ -1873,6 +1913,14 @@
               "tipo": "AJUSTE",
               "saldo_anterior": 0,
               "saldo_novo": 1,
+              "diferenca": 1
+            },
+            {
+              "data_hora": "27/08/2026 10:08:38",
+              "unidade": "CPQ08",
+              "tipo": "AJUSTE",
+              "saldo_anterior": 1,
+              "saldo_novo": 2,
               "diferenca": 1
             }
           ]
@@ -1882,7 +1930,7 @@
           "material": "Etiqueta Heavy",
           "unidade": "bloco",
           "minimo": 1,
-          "saldo": 1,
+          "saldo": 2,
           "historico": [
             {
               "data_hora": "18/08/2026 19:09:19",
@@ -1898,6 +1946,14 @@
               "tipo": "AJUSTE",
               "saldo_anterior": 0,
               "saldo_novo": 1,
+              "diferenca": 1
+            },
+            {
+              "data_hora": "27/08/2026 10:08:38",
+              "unidade": "CPQ08",
+              "tipo": "AJUSTE",
+              "saldo_anterior": 1,
+              "saldo_novo": 2,
               "diferenca": 1
             }
           ]
@@ -1907,7 +1963,7 @@
           "material": "Etiqueta Especial",
           "unidade": "bloco",
           "minimo": 1,
-          "saldo": 1,
+          "saldo": 2,
           "historico": [
             {
               "data_hora": "18/08/2026 19:09:19",
@@ -1923,6 +1979,14 @@
               "tipo": "AJUSTE",
               "saldo_anterior": 0,
               "saldo_novo": 1,
+              "diferenca": 1
+            },
+            {
+              "data_hora": "27/08/2026 10:08:38",
+              "unidade": "CPQ08",
+              "tipo": "AJUSTE",
+              "saldo_anterior": 1,
+              "saldo_novo": 2,
               "diferenca": 1
             }
           ]
@@ -1932,7 +1996,7 @@
           "material": "Etiqueta Expresso",
           "unidade": "bloco",
           "minimo": 1,
-          "saldo": 1,
+          "saldo": 2,
           "historico": [
             {
               "data_hora": "18/08/2026 19:09:19",
@@ -1948,6 +2012,14 @@
               "tipo": "AJUSTE",
               "saldo_anterior": 0,
               "saldo_novo": 1,
+              "diferenca": 1
+            },
+            {
+              "data_hora": "27/08/2026 10:08:38",
+              "unidade": "CPQ08",
+              "tipo": "AJUSTE",
+              "saldo_anterior": 1,
+              "saldo_novo": 2,
               "diferenca": 1
             }
           ]
@@ -1957,7 +2029,7 @@
           "material": "Etiqueta Premium",
           "unidade": "bloco",
           "minimo": 1,
-          "saldo": 1,
+          "saldo": 2,
           "historico": [
             {
               "data_hora": "18/08/2026 19:09:19",
@@ -1974,6 +2046,14 @@
               "saldo_anterior": 0,
               "saldo_novo": 1,
               "diferenca": 1
+            },
+            {
+              "data_hora": "27/08/2026 10:08:38",
+              "unidade": "CPQ08",
+              "tipo": "AJUSTE",
+              "saldo_anterior": 1,
+              "saldo_novo": 2,
+              "diferenca": 1
             }
           ]
         },
@@ -1982,7 +2062,7 @@
           "material": "Etiqueta Econômico",
           "unidade": "bloco",
           "minimo": 1,
-          "saldo": 1,
+          "saldo": 2,
           "historico": [
             {
               "data_hora": "18/08/2026 19:09:19",
@@ -1998,6 +2078,14 @@
               "tipo": "AJUSTE",
               "saldo_anterior": 0,
               "saldo_novo": 1,
+              "diferenca": 1
+            },
+            {
+              "data_hora": "27/08/2026 10:08:38",
+              "unidade": "CPQ08",
+              "tipo": "AJUSTE",
+              "saldo_anterior": 1,
+              "saldo_novo": 2,
               "diferenca": 1
             }
           ]
@@ -2455,7 +2543,7 @@
           "material": "Copos Descartáveis",
           "unidade": "pacote",
           "minimo": 2,
-          "saldo": 1,
+          "saldo": 5,
           "historico": [
             {
               "data_hora": "18/08/2026 19:09:19",
@@ -2488,6 +2576,14 @@
               "saldo_anterior": 0,
               "saldo_novo": 1,
               "diferenca": 1
+            },
+            {
+              "data_hora": "27/08/2026 10:08:38",
+              "unidade": "CPQ08",
+              "tipo": "AJUSTE",
+              "saldo_anterior": 1,
+              "saldo_novo": 5,
+              "diferenca": 4
             }
           ]
         },
@@ -2571,7 +2667,7 @@
           "material": "Detergente",
           "unidade": "unid",
           "minimo": 2,
-          "saldo": 2,
+          "saldo": 3,
           "historico": [
             {
               "data_hora": "18/08/2026 19:09:19",
@@ -2588,6 +2684,14 @@
               "saldo_anterior": 0,
               "saldo_novo": 2,
               "diferenca": 2
+            },
+            {
+              "data_hora": "27/08/2026 10:08:38",
+              "unidade": "CPQ08",
+              "tipo": "AJUSTE",
+              "saldo_anterior": 2,
+              "saldo_novo": 3,
+              "diferenca": 1
             }
           ]
         },
@@ -2621,7 +2725,7 @@
           "material": "Papel Higiênico",
           "unidade": "pacote",
           "minimo": 2,
-          "saldo": 1,
+          "saldo": 3,
           "historico": [
             {
               "data_hora": "18/08/2026 19:09:19",
@@ -2646,6 +2750,14 @@
               "saldo_anterior": 2,
               "saldo_novo": 1,
               "diferenca": -1
+            },
+            {
+              "data_hora": "27/08/2026 10:08:38",
+              "unidade": "CPQ08",
+              "tipo": "AJUSTE",
+              "saldo_anterior": 1,
+              "saldo_novo": 3,
+              "diferenca": 2
             }
           ]
         },
@@ -2774,7 +2886,7 @@
           ]
         }
       ],
-      "ultima_atualizacao": "26/08/2026 11:59"
+      "ultima_atualizacao": "27/08/2026 10:08"
     }
   }
 }
