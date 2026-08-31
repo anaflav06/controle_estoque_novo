@@ -7,7 +7,7 @@
           "material": "Caixa Pequena",
           "unidade": "unid",
           "minimo": 10,
-          "saldo": 126,
+          "saldo": 125,
           "historico": [
             {
               "data_hora": "18/08/2026 20:59:39",
@@ -48,6 +48,14 @@
               "saldo_anterior": 1,
               "saldo_novo": 126,
               "diferenca": 125
+            },
+            {
+              "data_hora": "31/08/2026 12:05:28",
+              "unidade": "SAO12",
+              "tipo": "AJUSTE",
+              "saldo_anterior": 126,
+              "saldo_novo": 125,
+              "diferenca": -1
             }
           ]
         },
@@ -122,7 +130,7 @@
           "material": "Envelope Azul/Flyer",
           "unidade": "unid",
           "minimo": 20,
-          "saldo": 243,
+          "saldo": 241,
           "historico": [
             {
               "data_hora": "18/08/2026 20:59:39",
@@ -147,6 +155,14 @@
               "saldo_anterior": 1,
               "saldo_novo": 243,
               "diferenca": 242
+            },
+            {
+              "data_hora": "31/08/2026 12:05:28",
+              "unidade": "SAO12",
+              "tipo": "AJUSTE",
+              "saldo_anterior": 243,
+              "saldo_novo": 241,
+              "diferenca": -2
             }
           ]
         },
@@ -246,7 +262,7 @@
           "material": "Fita Durex Azul",
           "unidade": "unid",
           "minimo": 10,
-          "saldo": 23,
+          "saldo": 21,
           "historico": [
             {
               "data_hora": "18/08/2026 20:59:39",
@@ -279,6 +295,14 @@
               "saldo_anterior": 24,
               "saldo_novo": 23,
               "diferenca": -1
+            },
+            {
+              "data_hora": "31/08/2026 12:05:28",
+              "unidade": "SAO12",
+              "tipo": "AJUSTE",
+              "saldo_anterior": 23,
+              "saldo_novo": 21,
+              "diferenca": -2
             }
           ]
         },
@@ -287,7 +311,7 @@
           "material": "Fita Durex Transparente",
           "unidade": "unid",
           "minimo": 10,
-          "saldo": 17,
+          "saldo": 15,
           "historico": [
             {
               "data_hora": "18/08/2026 20:59:39",
@@ -320,6 +344,14 @@
               "saldo_anterior": 18,
               "saldo_novo": 17,
               "diferenca": -1
+            },
+            {
+              "data_hora": "31/08/2026 12:05:28",
+              "unidade": "SAO12",
+              "tipo": "AJUSTE",
+              "saldo_anterior": 17,
+              "saldo_novo": 15,
+              "diferenca": -2
             }
           ]
         },
@@ -402,7 +434,7 @@
           "material": "Etiqueta Heavy",
           "unidade": "bloco",
           "minimo": 1,
-          "saldo": 13,
+          "saldo": 12,
           "historico": [
             {
               "data_hora": "18/08/2026 20:59:39",
@@ -427,6 +459,14 @@
               "saldo_anterior": 1,
               "saldo_novo": 13,
               "diferenca": 12
+            },
+            {
+              "data_hora": "31/08/2026 12:05:28",
+              "unidade": "SAO12",
+              "tipo": "AJUSTE",
+              "saldo_anterior": 13,
+              "saldo_novo": 12,
+              "diferenca": -1
             }
           ]
         },
@@ -789,7 +829,7 @@
           "material": "Toner / Tinta de Impressora",
           "unidade": "unid",
           "minimo": 1,
-          "saldo": 2,
+          "saldo": 1,
           "historico": [
             {
               "data_hora": "18/08/2026 20:59:39",
@@ -814,6 +854,14 @@
               "saldo_anterior": 1,
               "saldo_novo": 2,
               "diferenca": 1
+            },
+            {
+              "data_hora": "31/08/2026 12:05:28",
+              "unidade": "SAO12",
+              "tipo": "AJUSTE",
+              "saldo_anterior": 2,
+              "saldo_novo": 1,
+              "diferenca": -1
             }
           ]
         },
@@ -822,7 +870,7 @@
           "material": "Caixa de Arquivo de Papelão",
           "unidade": "unid",
           "minimo": 5,
-          "saldo": 4,
+          "saldo": 2,
           "historico": [
             {
               "data_hora": "18/08/2026 20:59:39",
@@ -863,6 +911,14 @@
               "saldo_anterior": 2,
               "saldo_novo": 4,
               "diferenca": 2
+            },
+            {
+              "data_hora": "31/08/2026 12:05:28",
+              "unidade": "SAO12",
+              "tipo": "AJUSTE",
+              "saldo_anterior": 4,
+              "saldo_novo": 2,
+              "diferenca": -2
             }
           ]
         },
@@ -1093,7 +1149,7 @@
           "material": "Açúcar",
           "unidade": "unid",
           "minimo": 1,
-          "saldo": 1,
+          "saldo": 0,
           "historico": [
             {
               "data_hora": "18/08/2026 20:59:39",
@@ -1110,6 +1166,14 @@
               "saldo_anterior": 0,
               "saldo_novo": 1,
               "diferenca": 1
+            },
+            {
+              "data_hora": "31/08/2026 12:05:28",
+              "unidade": "SAO12",
+              "tipo": "AJUSTE",
+              "saldo_anterior": 1,
+              "saldo_novo": 0,
+              "diferenca": -1
             }
           ]
         },
@@ -1118,7 +1182,7 @@
           "material": "Café",
           "unidade": "unid",
           "minimo": 1,
-          "saldo": 1,
+          "saldo": 0,
           "historico": [
             {
               "data_hora": "18/08/2026 20:59:39",
@@ -1135,6 +1199,14 @@
               "saldo_anterior": 0,
               "saldo_novo": 1,
               "diferenca": 1
+            },
+            {
+              "data_hora": "31/08/2026 12:05:28",
+              "unidade": "SAO12",
+              "tipo": "AJUSTE",
+              "saldo_anterior": 1,
+              "saldo_novo": 0,
+              "diferenca": -1
             }
           ]
         },
@@ -1382,7 +1454,7 @@
           "material": "Papel Toalha",
           "unidade": "pacote",
           "minimo": 2,
-          "saldo": 2,
+          "saldo": 1,
           "historico": [
             {
               "data_hora": "18/08/2026 20:59:39",
@@ -1415,6 +1487,14 @@
               "saldo_anterior": 0,
               "saldo_novo": 2,
               "diferenca": 2
+            },
+            {
+              "data_hora": "31/08/2026 12:05:28",
+              "unidade": "SAO12",
+              "tipo": "AJUSTE",
+              "saldo_anterior": 2,
+              "saldo_novo": 1,
+              "diferenca": -1
             }
           ]
         },
@@ -1526,7 +1606,7 @@
           ]
         }
       ],
-      "ultima_atualizacao": "25/08/2026 14:35"
+      "ultima_atualizacao": "31/08/2026 12:05"
     },
     "CPQ08": {
       "itens": [
