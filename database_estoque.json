@@ -2960,7 +2960,7 @@
           "material": "Saco para Lixeira Pequeno",
           "unidade": "pacote",
           "minimo": 1,
-          "saldo": 20,
+          "saldo": 1,
           "historico": [
             {
               "data_hora": "18/08/2026 19:09:19",
@@ -2977,6 +2977,14 @@
               "saldo_anterior": 0,
               "saldo_novo": 20,
               "diferenca": 20
+            },
+            {
+              "data_hora": "31/08/2026 12:34:13",
+              "unidade": "CPQ08",
+              "tipo": "AJUSTE",
+              "saldo_anterior": 20,
+              "saldo_novo": 1,
+              "diferenca": -19
             }
           ]
         },
@@ -2985,7 +2993,7 @@
           "material": "Saco para Lixeira Grande",
           "unidade": "pacote",
           "minimo": 1,
-          "saldo": 20,
+          "saldo": 1,
           "historico": [
             {
               "data_hora": "18/08/2026 19:09:19",
@@ -3002,11 +3010,19 @@
               "saldo_anterior": 0,
               "saldo_novo": 20,
               "diferenca": 20
+            },
+            {
+              "data_hora": "31/08/2026 12:34:13",
+              "unidade": "CPQ08",
+              "tipo": "AJUSTE",
+              "saldo_anterior": 20,
+              "saldo_novo": 1,
+              "diferenca": -19
             }
           ]
         }
       ],
-      "ultima_atualizacao": "31/08/2026 11:45"
+      "ultima_atualizacao": "31/08/2026 12:34"
     }
   }
 }
