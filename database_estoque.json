@@ -2663,7 +2663,7 @@
           "material": "Copos Descartáveis",
           "unidade": "pacote",
           "minimo": 2,
-          "saldo": 5,
+          "saldo": 9,
           "historico": [
             {
               "data_hora": "18/08/2026 19:09:19",
@@ -2703,6 +2703,14 @@
               "tipo": "AJUSTE",
               "saldo_anterior": 1,
               "saldo_novo": 5,
+              "diferenca": 4
+            },
+            {
+              "data_hora": "01/09/2026 09:13:33",
+              "unidade": "CPQ08",
+              "tipo": "AJUSTE",
+              "saldo_anterior": 5,
+              "saldo_novo": 9,
               "diferenca": 4
             }
           ]
@@ -2845,7 +2853,7 @@
           "material": "Papel Higiênico",
           "unidade": "pacote",
           "minimo": 2,
-          "saldo": 3,
+          "saldo": 7,
           "historico": [
             {
               "data_hora": "18/08/2026 19:09:19",
@@ -2878,6 +2886,14 @@
               "saldo_anterior": 1,
               "saldo_novo": 3,
               "diferenca": 2
+            },
+            {
+              "data_hora": "01/09/2026 09:13:33",
+              "unidade": "CPQ08",
+              "tipo": "AJUSTE",
+              "saldo_anterior": 3,
+              "saldo_novo": 7,
+              "diferenca": 4
             }
           ]
         },
@@ -2886,7 +2902,7 @@
           "material": "Papel Toalha",
           "unidade": "pacote",
           "minimo": 2,
-          "saldo": 0,
+          "saldo": 4,
           "historico": [
             {
               "data_hora": "18/08/2026 19:09:19",
@@ -2927,6 +2943,14 @@
               "saldo_anterior": 1,
               "saldo_novo": 0,
               "diferenca": -1
+            },
+            {
+              "data_hora": "01/09/2026 09:13:33",
+              "unidade": "CPQ08",
+              "tipo": "AJUSTE",
+              "saldo_anterior": 0,
+              "saldo_novo": 4,
+              "diferenca": 4
             }
           ]
         },
@@ -3022,7 +3046,7 @@
           ]
         }
       ],
-      "ultima_atualizacao": "31/08/2026 12:34"
+      "ultima_atualizacao": "01/09/2026 09:13"
     }
   }
 }
