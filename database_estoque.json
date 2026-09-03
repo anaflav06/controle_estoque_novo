@@ -130,7 +130,7 @@
           "material": "Envelope Azul/Flyer",
           "unidade": "unid",
           "minimo": 20,
-          "saldo": 241,
+          "saldo": 240,
           "historico": [
             {
               "data_hora": "18/08/2026 20:59:39",
@@ -163,6 +163,14 @@
               "saldo_anterior": 243,
               "saldo_novo": 241,
               "diferenca": -2
+            },
+            {
+              "data_hora": "03/09/2026 11:31:09",
+              "unidade": "SAO12",
+              "tipo": "AJUSTE",
+              "saldo_anterior": 241,
+              "saldo_novo": 240,
+              "diferenca": -1
             }
           ]
         },
@@ -262,7 +270,7 @@
           "material": "Fita Durex Azul",
           "unidade": "unid",
           "minimo": 10,
-          "saldo": 21,
+          "saldo": 18,
           "historico": [
             {
               "data_hora": "18/08/2026 20:59:39",
@@ -303,6 +311,14 @@
               "saldo_anterior": 23,
               "saldo_novo": 21,
               "diferenca": -2
+            },
+            {
+              "data_hora": "03/09/2026 11:31:09",
+              "unidade": "SAO12",
+              "tipo": "AJUSTE",
+              "saldo_anterior": 21,
+              "saldo_novo": 18,
+              "diferenca": -3
             }
           ]
         },
@@ -311,7 +327,7 @@
           "material": "Fita Durex Transparente",
           "unidade": "unid",
           "minimo": 10,
-          "saldo": 15,
+          "saldo": 13,
           "historico": [
             {
               "data_hora": "18/08/2026 20:59:39",
@@ -351,6 +367,14 @@
               "tipo": "AJUSTE",
               "saldo_anterior": 17,
               "saldo_novo": 15,
+              "diferenca": -2
+            },
+            {
+              "data_hora": "03/09/2026 11:31:09",
+              "unidade": "SAO12",
+              "tipo": "AJUSTE",
+              "saldo_anterior": 15,
+              "saldo_novo": 13,
               "diferenca": -2
             }
           ]
@@ -829,7 +853,7 @@
           "material": "Toner / Tinta de Impressora",
           "unidade": "unid",
           "minimo": 1,
-          "saldo": 1,
+          "saldo": 0,
           "historico": [
             {
               "data_hora": "18/08/2026 20:59:39",
@@ -861,6 +885,14 @@
               "tipo": "AJUSTE",
               "saldo_anterior": 2,
               "saldo_novo": 1,
+              "diferenca": -1
+            },
+            {
+              "data_hora": "03/09/2026 11:31:09",
+              "unidade": "SAO12",
+              "tipo": "AJUSTE",
+              "saldo_anterior": 1,
+              "saldo_novo": 0,
               "diferenca": -1
             }
           ]
@@ -1606,7 +1638,7 @@
           ]
         }
       ],
-      "ultima_atualizacao": "31/08/2026 12:05"
+      "ultima_atualizacao": "03/09/2026 11:31"
     },
     "CPQ08": {
       "itens": [
