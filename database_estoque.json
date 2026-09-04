@@ -524,7 +524,7 @@
           "material": "Etiqueta Expresso",
           "unidade": "bloco",
           "minimo": 1,
-          "saldo": 3,
+          "saldo": 2,
           "historico": [
             {
               "data_hora": "18/08/2026 20:59:39",
@@ -556,6 +556,14 @@
               "tipo": "AJUSTE",
               "saldo_anterior": 4,
               "saldo_novo": 3,
+              "diferenca": -1
+            },
+            {
+              "data_hora": "04/09/2026 12:34:07",
+              "unidade": "SAO12",
+              "tipo": "AJUSTE",
+              "saldo_anterior": 3,
+              "saldo_novo": 2,
               "diferenca": -1
             }
           ]
@@ -1638,7 +1646,7 @@
           ]
         }
       ],
-      "ultima_atualizacao": "03/09/2026 11:31"
+      "ultima_atualizacao": "04/09/2026 12:34"
     },
     "CPQ08": {
       "itens": [
