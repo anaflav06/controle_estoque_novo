@@ -7,7 +7,7 @@
           "material": "Caixa Pequena",
           "unidade": "unid",
           "minimo": 10,
-          "saldo": 124,
+          "saldo": 123,
           "historico": [
             {
               "data_hora": "18/08/2026 20:59:39",
@@ -63,6 +63,14 @@
               "tipo": "AJUSTE",
               "saldo_anterior": 125,
               "saldo_novo": 124,
+              "diferenca": -1
+            },
+            {
+              "data_hora": "14/09/2026 12:48:47",
+              "unidade": "SAO12",
+              "tipo": "AJUSTE",
+              "saldo_anterior": 124,
+              "saldo_novo": 123,
               "diferenca": -1
             }
           ]
@@ -138,7 +146,7 @@
           "material": "Envelope Azul/Flyer",
           "unidade": "unid",
           "minimo": 20,
-          "saldo": 239,
+          "saldo": 238,
           "historico": [
             {
               "data_hora": "18/08/2026 20:59:39",
@@ -186,6 +194,14 @@
               "tipo": "AJUSTE",
               "saldo_anterior": 240,
               "saldo_novo": 239,
+              "diferenca": -1
+            },
+            {
+              "data_hora": "14/09/2026 12:48:47",
+              "unidade": "SAO12",
+              "tipo": "AJUSTE",
+              "saldo_anterior": 239,
+              "saldo_novo": 238,
               "diferenca": -1
             }
           ]
@@ -351,7 +367,7 @@
           "material": "Fita Durex Transparente",
           "unidade": "unid",
           "minimo": 10,
-          "saldo": 19,
+          "saldo": 18,
           "historico": [
             {
               "data_hora": "18/08/2026 20:59:39",
@@ -408,6 +424,14 @@
               "saldo_anterior": 13,
               "saldo_novo": 19,
               "diferenca": 6
+            },
+            {
+              "data_hora": "14/09/2026 12:48:47",
+              "unidade": "SAO12",
+              "tipo": "AJUSTE",
+              "saldo_anterior": 19,
+              "saldo_novo": 18,
+              "diferenca": -1
             }
           ]
         },
@@ -778,7 +802,7 @@
           "material": "Canetas",
           "unidade": "unid",
           "minimo": 5,
-          "saldo": 10,
+          "saldo": 9,
           "historico": [
             {
               "data_hora": "18/08/2026 20:59:39",
@@ -827,6 +851,14 @@
               "saldo_anterior": 3,
               "saldo_novo": 10,
               "diferenca": 7
+            },
+            {
+              "data_hora": "14/09/2026 12:48:47",
+              "unidade": "SAO12",
+              "tipo": "AJUSTE",
+              "saldo_anterior": 10,
+              "saldo_novo": 9,
+              "diferenca": -1
             }
           ]
         },
@@ -901,7 +933,7 @@
           "material": "Toner / Tinta de Impressora",
           "unidade": "unid",
           "minimo": 1,
-          "saldo": 1,
+          "saldo": 0,
           "historico": [
             {
               "data_hora": "18/08/2026 20:59:39",
@@ -950,6 +982,14 @@
               "saldo_anterior": 0,
               "saldo_novo": 1,
               "diferenca": 1
+            },
+            {
+              "data_hora": "14/09/2026 12:48:47",
+              "unidade": "SAO12",
+              "tipo": "AJUSTE",
+              "saldo_anterior": 1,
+              "saldo_novo": 0,
+              "diferenca": -1
             }
           ]
         },
@@ -1541,7 +1581,7 @@
           "material": "Papel Higiênico",
           "unidade": "pacote",
           "minimo": 2,
-          "saldo": 2,
+          "saldo": 3,
           "historico": [
             {
               "data_hora": "18/08/2026 20:59:39",
@@ -1598,6 +1638,14 @@
               "saldo_anterior": 1,
               "saldo_novo": 2,
               "diferenca": 1
+            },
+            {
+              "data_hora": "14/09/2026 12:48:47",
+              "unidade": "SAO12",
+              "tipo": "AJUSTE",
+              "saldo_anterior": 2,
+              "saldo_novo": 3,
+              "diferenca": 1
             }
           ]
         },
@@ -1606,7 +1654,7 @@
           "material": "Papel Toalha",
           "unidade": "pacote",
           "minimo": 2,
-          "saldo": 2,
+          "saldo": 1,
           "historico": [
             {
               "data_hora": "18/08/2026 20:59:39",
@@ -1655,6 +1703,14 @@
               "saldo_anterior": 1,
               "saldo_novo": 2,
               "diferenca": 1
+            },
+            {
+              "data_hora": "14/09/2026 12:48:47",
+              "unidade": "SAO12",
+              "tipo": "AJUSTE",
+              "saldo_anterior": 2,
+              "saldo_novo": 1,
+              "diferenca": -1
             }
           ]
         },
@@ -1770,10 +1826,20 @@
           "material": "Sabonete Líquido",
           "minimo": 1,
           "unidade": "unid",
-          "saldo": 0
+          "saldo": 1,
+          "historico": [
+            {
+              "data_hora": "14/09/2026 12:48:47",
+              "unidade": "SAO12",
+              "tipo": "AJUSTE",
+              "saldo_anterior": 0,
+              "saldo_novo": 1,
+              "diferenca": 1
+            }
+          ]
         }
       ],
-      "ultima_atualizacao": "08/09/2026 13:44"
+      "ultima_atualizacao": "14/09/2026 12:48"
     },
     "CPQ08": {
       "itens": [
