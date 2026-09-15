@@ -3435,10 +3435,20 @@
           "material": "Sabonete Líquido",
           "minimo": 1,
           "unidade": "unid",
-          "saldo": 0
+          "saldo": 1,
+          "historico": [
+            {
+              "data_hora": "15/09/2026 20:25:20",
+              "unidade": "CPQ08",
+              "tipo": "AJUSTE",
+              "saldo_anterior": 0,
+              "saldo_novo": 1,
+              "diferenca": 1
+            }
+          ]
         }
       ],
-      "ultima_atualizacao": "15/09/2026 11:19"
+      "ultima_atualizacao": "15/09/2026 20:25"
     }
   }
 }
