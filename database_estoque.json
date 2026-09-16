@@ -933,7 +933,7 @@
           "material": "Toner / Tinta de Impressora",
           "unidade": "unid",
           "minimo": 1,
-          "saldo": 0,
+          "saldo": 2,
           "historico": [
             {
               "data_hora": "18/08/2026 20:59:39",
@@ -990,6 +990,14 @@
               "saldo_anterior": 1,
               "saldo_novo": 0,
               "diferenca": -1
+            },
+            {
+              "data_hora": "16/09/2026 11:53:30",
+              "unidade": "SAO12",
+              "tipo": "AJUSTE",
+              "saldo_anterior": 0,
+              "saldo_novo": 2,
+              "diferenca": 2
             }
           ]
         },
@@ -1654,7 +1662,7 @@
           "material": "Papel Toalha",
           "unidade": "pacote",
           "minimo": 2,
-          "saldo": 3,
+          "saldo": 5,
           "historico": [
             {
               "data_hora": "18/08/2026 20:59:39",
@@ -1718,6 +1726,14 @@
               "tipo": "AJUSTE",
               "saldo_anterior": 1,
               "saldo_novo": 3,
+              "diferenca": 2
+            },
+            {
+              "data_hora": "16/09/2026 11:53:30",
+              "unidade": "SAO12",
+              "tipo": "AJUSTE",
+              "saldo_anterior": 3,
+              "saldo_novo": 5,
               "diferenca": 2
             }
           ]
@@ -1847,7 +1863,7 @@
           ]
         }
       ],
-      "ultima_atualizacao": "15/09/2026 20:25"
+      "ultima_atualizacao": "16/09/2026 11:53"
     },
     "CPQ08": {
       "itens": [
