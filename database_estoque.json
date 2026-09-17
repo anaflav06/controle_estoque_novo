@@ -3311,7 +3311,7 @@
           "material": "Papel Toalha",
           "unidade": "pacote",
           "minimo": 2,
-          "saldo": 3,
+          "saldo": 0,
           "historico": [
             {
               "data_hora": "18/08/2026 19:09:19",
@@ -3368,6 +3368,14 @@
               "saldo_anterior": 4,
               "saldo_novo": 3,
               "diferenca": -1
+            },
+            {
+              "data_hora": "17/09/2026 13:04:51",
+              "unidade": "CPQ08",
+              "tipo": "AJUSTE",
+              "saldo_anterior": 3,
+              "saldo_novo": 0,
+              "diferenca": -3
             }
           ]
         },
@@ -3480,7 +3488,7 @@
           ]
         }
       ],
-      "ultima_atualizacao": "16/09/2026 14:26"
+      "ultima_atualizacao": "17/09/2026 13:04"
     }
   }
 }
