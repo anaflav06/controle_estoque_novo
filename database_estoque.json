@@ -2021,7 +2021,7 @@
           "material": "Filme Stretch",
           "unidade": "unid",
           "minimo": 2,
-          "saldo": 30,
+          "saldo": 8,
           "historico": [
             {
               "data_hora": "18/08/2026 19:09:19",
@@ -2110,6 +2110,14 @@
               "saldo_anterior": 33,
               "saldo_novo": 30,
               "diferenca": -3
+            },
+            {
+              "data_hora": "19/09/2026 12:39:05",
+              "unidade": "CPQ08",
+              "tipo": "AJUSTE",
+              "saldo_anterior": 30,
+              "saldo_novo": 8,
+              "diferenca": -22
             }
           ]
         },
@@ -2232,7 +2240,7 @@
           "material": "Fita Durex Transparente",
           "unidade": "caixa",
           "minimo": 2,
-          "saldo": 11,
+          "saldo": 9,
           "historico": [
             {
               "data_hora": "18/08/2026 19:09:19",
@@ -2281,6 +2289,14 @@
               "saldo_anterior": 10,
               "saldo_novo": 11,
               "diferenca": 1
+            },
+            {
+              "data_hora": "19/09/2026 12:39:05",
+              "unidade": "CPQ08",
+              "tipo": "AJUSTE",
+              "saldo_anterior": 11,
+              "saldo_novo": 9,
+              "diferenca": -2
             }
           ]
         },
@@ -3113,7 +3129,7 @@
           "material": "Filtro de Café",
           "unidade": "unid",
           "minimo": 1,
-          "saldo": 1,
+          "saldo": 0,
           "historico": [
             {
               "data_hora": "18/08/2026 19:09:19",
@@ -3130,6 +3146,14 @@
               "saldo_anterior": 0,
               "saldo_novo": 1,
               "diferenca": 1
+            },
+            {
+              "data_hora": "19/09/2026 12:39:05",
+              "unidade": "CPQ08",
+              "tipo": "AJUSTE",
+              "saldo_anterior": 1,
+              "saldo_novo": 0,
+              "diferenca": -1
             }
           ]
         },
@@ -3262,7 +3286,7 @@
           "material": "Papel Higiênico",
           "unidade": "pacote",
           "minimo": 2,
-          "saldo": 7,
+          "saldo": 6,
           "historico": [
             {
               "data_hora": "18/08/2026 19:09:19",
@@ -3303,6 +3327,14 @@
               "saldo_anterior": 3,
               "saldo_novo": 7,
               "diferenca": 4
+            },
+            {
+              "data_hora": "19/09/2026 12:39:05",
+              "unidade": "CPQ08",
+              "tipo": "AJUSTE",
+              "saldo_anterior": 7,
+              "saldo_novo": 6,
+              "diferenca": -1
             }
           ]
         },
@@ -3488,7 +3520,7 @@
           ]
         }
       ],
-      "ultima_atualizacao": "17/09/2026 13:04"
+      "ultima_atualizacao": "19/09/2026 12:39"
     }
   }
 }
