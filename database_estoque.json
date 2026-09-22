@@ -3265,7 +3265,7 @@
           "material": "Filtro de Café",
           "unidade": "unid",
           "minimo": 1,
-          "saldo": 0,
+          "saldo": 1,
           "historico": [
             {
               "data_hora": "18/08/2026 19:09:19",
@@ -3290,6 +3290,14 @@
               "saldo_anterior": 1,
               "saldo_novo": 0,
               "diferenca": -1
+            },
+            {
+              "data_hora": "22/09/2026 11:27:03",
+              "unidade": "CPQ08",
+              "tipo": "AJUSTE",
+              "saldo_anterior": 0,
+              "saldo_novo": 1,
+              "diferenca": 1
             }
           ]
         },
@@ -3479,7 +3487,7 @@
           "material": "Papel Toalha",
           "unidade": "pacote",
           "minimo": 2,
-          "saldo": 0,
+          "saldo": 2,
           "historico": [
             {
               "data_hora": "18/08/2026 19:09:19",
@@ -3544,6 +3552,14 @@
               "saldo_anterior": 3,
               "saldo_novo": 0,
               "diferenca": -3
+            },
+            {
+              "data_hora": "22/09/2026 11:27:03",
+              "unidade": "CPQ08",
+              "tipo": "AJUSTE",
+              "saldo_anterior": 0,
+              "saldo_novo": 2,
+              "diferenca": 2
             }
           ]
         },
@@ -3656,7 +3672,7 @@
           ]
         }
       ],
-      "ultima_atualizacao": "22/09/2026 11:26"
+      "ultima_atualizacao": "22/09/2026 11:27"
     }
   }
 }
