@@ -70,7 +70,7 @@ CONFIG_ESTOQUE = {
         "Caixa de Vinho": (10, "unid"),
         "Envelope Azul/Flyer": (20, "unid"),
         "Cangurus": (1, "caixa"),
-        "Filme Stretch": (2, "unid"),
+        "Filme Stretch": (40, "unid"),
         "Lacre": (2, "caixa"),
         "Fita Durex Azul": (5, "unid"),
         "Fita Durex Transparente": (2, "caixa"),
