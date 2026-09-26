@@ -2141,7 +2141,7 @@
           "material": "Filme Stretch",
           "unidade": "unid",
           "minimo": 40,
-          "saldo": 32,
+          "saldo": 48,
           "historico": [
             {
               "data_hora": "18/08/2026 19:09:19",
@@ -2246,6 +2246,14 @@
               "saldo_anterior": 8,
               "saldo_novo": 32,
               "diferenca": 24
+            },
+            {
+              "data_hora": "26/09/2026 11:48:40",
+              "unidade": "CPQ08",
+              "tipo": "AJUSTE",
+              "saldo_anterior": 32,
+              "saldo_novo": 48,
+              "diferenca": 16
             }
           ]
         },
@@ -3712,7 +3720,7 @@
           ]
         }
       ],
-      "ultima_atualizacao": "26/09/2026 11:46"
+      "ultima_atualizacao": "26/09/2026 11:48"
     }
   }
 }
