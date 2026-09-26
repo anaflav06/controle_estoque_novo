@@ -2140,7 +2140,7 @@
           "categoria": "MATERIAL OPERACIONAL AZUL",
           "material": "Filme Stretch",
           "unidade": "unid",
-          "minimo": 2,
+          "minimo": 40,
           "saldo": 32,
           "historico": [
             {
@@ -3503,7 +3503,7 @@
           "material": "Papel Toalha",
           "unidade": "pacote",
           "minimo": 2,
-          "saldo": 2,
+          "saldo": 0,
           "historico": [
             {
               "data_hora": "18/08/2026 19:09:19",
@@ -3576,6 +3576,14 @@
               "saldo_anterior": 0,
               "saldo_novo": 2,
               "diferenca": 2
+            },
+            {
+              "data_hora": "26/09/2026 11:46:01",
+              "unidade": "CPQ08",
+              "tipo": "AJUSTE",
+              "saldo_anterior": 2,
+              "saldo_novo": 0,
+              "diferenca": -2
             }
           ]
         },
@@ -3704,7 +3712,7 @@
           ]
         }
       ],
-      "ultima_atualizacao": "23/09/2026 11:19"
+      "ultima_atualizacao": "26/09/2026 11:46"
     }
   }
 }
