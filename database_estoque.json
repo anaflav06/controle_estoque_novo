@@ -3426,7 +3426,7 @@
           "material": "Álcool Líquido",
           "unidade": "unid",
           "minimo": 1,
-          "saldo": 2,
+          "saldo": 3,
           "historico": [
             {
               "data_hora": "18/08/2026 19:09:19",
@@ -3443,6 +3443,14 @@
               "saldo_anterior": 0,
               "saldo_novo": 2,
               "diferenca": 2
+            },
+            {
+              "data_hora": "28/09/2026 21:20:59",
+              "unidade": "CPQ08",
+              "tipo": "AJUSTE",
+              "saldo_anterior": 2,
+              "saldo_novo": 3,
+              "diferenca": 1
             }
           ]
         },
@@ -3451,7 +3459,7 @@
           "material": "Cândida",
           "unidade": "unid",
           "minimo": 1,
-          "saldo": 2,
+          "saldo": 1,
           "historico": [
             {
               "data_hora": "18/08/2026 19:09:19",
@@ -3468,6 +3476,14 @@
               "saldo_anterior": 0,
               "saldo_novo": 2,
               "diferenca": 2
+            },
+            {
+              "data_hora": "28/09/2026 21:20:59",
+              "unidade": "CPQ08",
+              "tipo": "AJUSTE",
+              "saldo_anterior": 2,
+              "saldo_novo": 1,
+              "diferenca": -1
             }
           ]
         },
@@ -3816,7 +3832,7 @@
           ]
         }
       ],
-      "ultima_atualizacao": "28/09/2026 21:19"
+      "ultima_atualizacao": "28/09/2026 21:20"
     }
   }
 }
