@@ -2350,7 +2350,7 @@
           "material": "Lacre",
           "unidade": "caixa",
           "minimo": 2,
-          "saldo": 2,
+          "saldo": 1,
           "historico": [
             {
               "data_hora": "18/08/2026 19:09:19",
@@ -2439,6 +2439,14 @@
               "saldo_anterior": 1,
               "saldo_novo": 2,
               "diferenca": 1
+            },
+            {
+              "data_hora": "28/09/2026 21:19:56",
+              "unidade": "CPQ08",
+              "tipo": "AJUSTE",
+              "saldo_anterior": 2,
+              "saldo_novo": 1,
+              "diferenca": -1
             }
           ]
         },
@@ -3808,7 +3816,7 @@
           ]
         }
       ],
-      "ultima_atualizacao": "26/09/2026 11:48"
+      "ultima_atualizacao": "28/09/2026 21:19"
     }
   }
 }
