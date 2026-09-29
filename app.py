@@ -63,6 +63,7 @@ CONFIG_ESTOQUE = {
         "Saco para Lixeira Pequeno": (1, "pacote"),
         "Saco para Lixeira Grande": (1, "pacote"),
         "Sabonete Líquido": (1, "unid"),
+        "Desinfetante": (1, "unid"),
     },
     "CPQ08": {
         "Caixa Pequena": (10, "unid"),
@@ -109,6 +110,7 @@ CONFIG_ESTOQUE = {
         "Saco para Lixeira Pequeno": (1, "pacote"),
         "Saco para Lixeira Grande": (1, "pacote"),
         "Sabonete Líquido": (1, "unid"),
+        "Desinfetante": (1, "unid"),
     },
 }
 
@@ -127,6 +129,15 @@ def aplicar_config_estoque(db):
             itens_unidade.append({
                 "categoria": "ITENS GDS — COPA / LIMPEZA",
                 "material": "Sabonete Líquido",
+                "minimo": 1,
+                "unidade": "unid",
+                "saldo": 0
+            })
+
+        if "Desinfetante" not in materiais_existentes:
+            itens_unidade.append({
+                "categoria": "ITENS GDS — COPA / LIMPEZA",
+                "material": "Desinfetante",
                 "minimo": 1,
                 "unidade": "unid",
                 "saldo": 0
