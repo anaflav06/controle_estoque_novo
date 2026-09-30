@@ -3638,7 +3638,7 @@
           "material": "Papel Toalha",
           "unidade": "pacote",
           "minimo": 2,
-          "saldo": 0,
+          "saldo": 2,
           "historico": [
             {
               "data_hora": "18/08/2026 19:09:19",
@@ -3719,6 +3719,14 @@
               "saldo_anterior": 2,
               "saldo_novo": 0,
               "diferenca": -2
+            },
+            {
+              "data_hora": "30/09/2026 18:05:09",
+              "unidade": "CPQ08",
+              "tipo": "AJUSTE",
+              "saldo_anterior": 0,
+              "saldo_novo": 2,
+              "diferenca": 2
             }
           ]
         },
@@ -3752,7 +3760,7 @@
           "material": "Saco para Lixeira Pequeno",
           "unidade": "pacote",
           "minimo": 1,
-          "saldo": 0,
+          "saldo": 1,
           "historico": [
             {
               "data_hora": "18/08/2026 19:09:19",
@@ -3785,6 +3793,14 @@
               "saldo_anterior": 1,
               "saldo_novo": 0,
               "diferenca": -1
+            },
+            {
+              "data_hora": "30/09/2026 18:05:09",
+              "unidade": "CPQ08",
+              "tipo": "AJUSTE",
+              "saldo_anterior": 0,
+              "saldo_novo": 1,
+              "diferenca": 1
             }
           ]
         },
@@ -3793,7 +3809,7 @@
           "material": "Saco para Lixeira Grande",
           "unidade": "pacote",
           "minimo": 1,
-          "saldo": 0,
+          "saldo": 1,
           "historico": [
             {
               "data_hora": "18/08/2026 19:09:19",
@@ -3826,6 +3842,14 @@
               "saldo_anterior": 1,
               "saldo_novo": 0,
               "diferenca": -1
+            },
+            {
+              "data_hora": "30/09/2026 18:05:09",
+              "unidade": "CPQ08",
+              "tipo": "AJUSTE",
+              "saldo_anterior": 0,
+              "saldo_novo": 1,
+              "diferenca": 1
             }
           ]
         },
@@ -3851,10 +3875,20 @@
           "material": "Desinfetante",
           "minimo": 1,
           "unidade": "unid",
-          "saldo": 0
+          "saldo": 1,
+          "historico": [
+            {
+              "data_hora": "30/09/2026 18:05:09",
+              "unidade": "CPQ08",
+              "tipo": "AJUSTE",
+              "saldo_anterior": 0,
+              "saldo_novo": 1,
+              "diferenca": 1
+            }
+          ]
         }
       ],
-      "ultima_atualizacao": "30/09/2026 18:04"
+      "ultima_atualizacao": "30/09/2026 18:05"
     }
   }
 }
