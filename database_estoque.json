@@ -2069,6 +2069,13 @@
               "diferenca": 1
             }
           ]
+        },
+        {
+          "categoria": "ITENS GDS — COPA / LIMPEZA",
+          "material": "Desinfetante",
+          "minimo": 1,
+          "unidade": "unid",
+          "saldo": 0
         }
       ],
       "ultima_atualizacao": "28/09/2026 12:55"
@@ -2229,7 +2236,7 @@
           "material": "Filme Stretch",
           "unidade": "unid",
           "minimo": 40,
-          "saldo": 48,
+          "saldo": 20,
           "historico": [
             {
               "data_hora": "18/08/2026 19:09:19",
@@ -2342,6 +2349,14 @@
               "saldo_anterior": 32,
               "saldo_novo": 48,
               "diferenca": 16
+            },
+            {
+              "data_hora": "30/09/2026 18:04:35",
+              "unidade": "CPQ08",
+              "tipo": "AJUSTE",
+              "saldo_anterior": 48,
+              "saldo_novo": 20,
+              "diferenca": -28
             }
           ]
         },
@@ -3830,9 +3845,16 @@
               "diferenca": 1
             }
           ]
+        },
+        {
+          "categoria": "ITENS GDS — COPA / LIMPEZA",
+          "material": "Desinfetante",
+          "minimo": 1,
+          "unidade": "unid",
+          "saldo": 0
         }
       ],
-      "ultima_atualizacao": "28/09/2026 21:20"
+      "ultima_atualizacao": "30/09/2026 18:04"
     }
   }
 }
