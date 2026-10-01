@@ -2236,7 +2236,7 @@
           "material": "Filme Stretch",
           "unidade": "unid",
           "minimo": 40,
-          "saldo": 20,
+          "saldo": 62,
           "historico": [
             {
               "data_hora": "18/08/2026 19:09:19",
@@ -2357,6 +2357,14 @@
               "saldo_anterior": 48,
               "saldo_novo": 20,
               "diferenca": -28
+            },
+            {
+              "data_hora": "01/10/2026 11:24:03",
+              "unidade": "CPQ08",
+              "tipo": "AJUSTE",
+              "saldo_anterior": 20,
+              "saldo_novo": 62,
+              "diferenca": 42
             }
           ]
         },
@@ -2365,7 +2373,7 @@
           "material": "Lacre",
           "unidade": "caixa",
           "minimo": 2,
-          "saldo": 1,
+          "saldo": 2,
           "historico": [
             {
               "data_hora": "18/08/2026 19:09:19",
@@ -2462,6 +2470,14 @@
               "saldo_anterior": 2,
               "saldo_novo": 1,
               "diferenca": -1
+            },
+            {
+              "data_hora": "01/10/2026 11:24:03",
+              "unidade": "CPQ08",
+              "tipo": "AJUSTE",
+              "saldo_anterior": 1,
+              "saldo_novo": 2,
+              "diferenca": 1
             }
           ]
         },
@@ -3888,7 +3904,7 @@
           ]
         }
       ],
-      "ultima_atualizacao": "30/09/2026 18:05"
+      "ultima_atualizacao": "01/10/2026 11:24"
     }
   }
 }
