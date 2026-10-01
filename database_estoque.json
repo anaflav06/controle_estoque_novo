@@ -235,7 +235,7 @@
           "material": "Cangurus",
           "unidade": "caixa",
           "minimo": 1,
-          "saldo": 0,
+          "saldo": 1,
           "historico": [
             {
               "data_hora": "18/08/2026 20:59:39",
@@ -260,6 +260,14 @@
               "saldo_anterior": 1,
               "saldo_novo": 0,
               "diferenca": -1
+            },
+            {
+              "data_hora": "01/10/2026 12:33:37",
+              "unidade": "SAO12",
+              "tipo": "AJUSTE",
+              "saldo_anterior": 0,
+              "saldo_novo": 1,
+              "diferenca": 1
             }
           ]
         },
@@ -423,7 +431,7 @@
           "material": "Fita Durex Transparente",
           "unidade": "unid",
           "minimo": 10,
-          "saldo": 15,
+          "saldo": 17,
           "historico": [
             {
               "data_hora": "18/08/2026 20:59:39",
@@ -496,6 +504,14 @@
               "saldo_anterior": 18,
               "saldo_novo": 15,
               "diferenca": -3
+            },
+            {
+              "data_hora": "01/10/2026 12:33:37",
+              "unidade": "SAO12",
+              "tipo": "AJUSTE",
+              "saldo_anterior": 15,
+              "saldo_novo": 17,
+              "diferenca": 2
             }
           ]
         },
@@ -504,7 +520,7 @@
           "material": "Etiqueta Frágil",
           "unidade": "bloco",
           "minimo": 1,
-          "saldo": 0,
+          "saldo": 1,
           "historico": [
             {
               "data_hora": "18/08/2026 20:59:39",
@@ -553,6 +569,14 @@
               "saldo_anterior": 2,
               "saldo_novo": 0,
               "diferenca": -2
+            },
+            {
+              "data_hora": "01/10/2026 12:33:37",
+              "unidade": "SAO12",
+              "tipo": "AJUSTE",
+              "saldo_anterior": 0,
+              "saldo_novo": 1,
+              "diferenca": 1
             }
           ]
         },
@@ -660,7 +684,7 @@
           "material": "Etiqueta Expresso",
           "unidade": "bloco",
           "minimo": 1,
-          "saldo": 0,
+          "saldo": 2,
           "historico": [
             {
               "data_hora": "18/08/2026 20:59:39",
@@ -717,6 +741,14 @@
               "saldo_anterior": 1,
               "saldo_novo": 0,
               "diferenca": -1
+            },
+            {
+              "data_hora": "01/10/2026 12:33:37",
+              "unidade": "SAO12",
+              "tipo": "AJUSTE",
+              "saldo_anterior": 0,
+              "saldo_novo": 2,
+              "diferenca": 2
             }
           ]
         },
@@ -1020,7 +1052,7 @@
           "material": "Sulfite",
           "unidade": "unid",
           "minimo": 5,
-          "saldo": 2,
+          "saldo": 5,
           "historico": [
             {
               "data_hora": "18/08/2026 20:59:39",
@@ -1061,6 +1093,14 @@
               "saldo_anterior": 5,
               "saldo_novo": 2,
               "diferenca": -3
+            },
+            {
+              "data_hora": "01/10/2026 12:33:37",
+              "unidade": "SAO12",
+              "tipo": "AJUSTE",
+              "saldo_anterior": 2,
+              "saldo_novo": 5,
+              "diferenca": 3
             }
           ]
         },
@@ -1519,7 +1559,7 @@
           "material": "Copos Descartáveis",
           "unidade": "pacote",
           "minimo": 2,
-          "saldo": 1,
+          "saldo": 4,
           "historico": [
             {
               "data_hora": "18/08/2026 20:59:39",
@@ -1568,6 +1608,14 @@
               "saldo_anterior": 2,
               "saldo_novo": 1,
               "diferenca": -1
+            },
+            {
+              "data_hora": "01/10/2026 12:33:37",
+              "unidade": "SAO12",
+              "tipo": "AJUSTE",
+              "saldo_anterior": 1,
+              "saldo_novo": 4,
+              "diferenca": 3
             }
           ]
         },
@@ -1765,7 +1813,7 @@
           "material": "Papel Higiênico",
           "unidade": "pacote",
           "minimo": 2,
-          "saldo": 1,
+          "saldo": 2,
           "historico": [
             {
               "data_hora": "18/08/2026 20:59:39",
@@ -1846,6 +1894,14 @@
               "saldo_anterior": 2,
               "saldo_novo": 1,
               "diferenca": -1
+            },
+            {
+              "data_hora": "01/10/2026 12:33:37",
+              "unidade": "SAO12",
+              "tipo": "AJUSTE",
+              "saldo_anterior": 1,
+              "saldo_novo": 2,
+              "diferenca": 1
             }
           ]
         },
@@ -1968,7 +2024,7 @@
           "material": "Saco para Lixeira Pequeno",
           "unidade": "pacote",
           "minimo": 1,
-          "saldo": 0,
+          "saldo": 1,
           "historico": [
             {
               "data_hora": "18/08/2026 20:59:39",
@@ -2009,6 +2065,14 @@
               "saldo_anterior": 1,
               "saldo_novo": 0,
               "diferenca": -1
+            },
+            {
+              "data_hora": "01/10/2026 12:33:37",
+              "unidade": "SAO12",
+              "tipo": "AJUSTE",
+              "saldo_anterior": 0,
+              "saldo_novo": 1,
+              "diferenca": 1
             }
           ]
         },
@@ -2078,7 +2142,7 @@
           "saldo": 0
         }
       ],
-      "ultima_atualizacao": "28/09/2026 12:55"
+      "ultima_atualizacao": "01/10/2026 12:33"
     },
     "CPQ08": {
       "itens": [
