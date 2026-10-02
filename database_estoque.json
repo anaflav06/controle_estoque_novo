@@ -2300,7 +2300,7 @@
           "material": "Filme Stretch",
           "unidade": "unid",
           "minimo": 40,
-          "saldo": 62,
+          "saldo": 120,
           "historico": [
             {
               "data_hora": "18/08/2026 19:09:19",
@@ -2429,6 +2429,14 @@
               "saldo_anterior": 20,
               "saldo_novo": 62,
               "diferenca": 42
+            },
+            {
+              "data_hora": "02/10/2026 11:17:00",
+              "unidade": "CPQ08",
+              "tipo": "AJUSTE",
+              "saldo_anterior": 62,
+              "saldo_novo": 120,
+              "diferenca": 58
             }
           ]
         },
@@ -2437,7 +2445,7 @@
           "material": "Lacre",
           "unidade": "caixa",
           "minimo": 2,
-          "saldo": 2,
+          "saldo": 4,
           "historico": [
             {
               "data_hora": "18/08/2026 19:09:19",
@@ -2542,6 +2550,14 @@
               "saldo_anterior": 1,
               "saldo_novo": 2,
               "diferenca": 1
+            },
+            {
+              "data_hora": "02/10/2026 11:17:00",
+              "unidade": "CPQ08",
+              "tipo": "AJUSTE",
+              "saldo_anterior": 2,
+              "saldo_novo": 4,
+              "diferenca": 2
             }
           ]
         },
@@ -2550,7 +2566,7 @@
           "material": "Fita Durex Azul",
           "unidade": "unid",
           "minimo": 5,
-          "saldo": 41,
+          "saldo": 50,
           "historico": [
             {
               "data_hora": "18/08/2026 19:09:19",
@@ -2575,6 +2591,14 @@
               "saldo_anterior": 36,
               "saldo_novo": 41,
               "diferenca": 5
+            },
+            {
+              "data_hora": "02/10/2026 11:17:00",
+              "unidade": "CPQ08",
+              "tipo": "AJUSTE",
+              "saldo_anterior": 41,
+              "saldo_novo": 50,
+              "diferenca": 9
             }
           ]
         },
@@ -3968,7 +3992,7 @@
           ]
         }
       ],
-      "ultima_atualizacao": "01/10/2026 11:24"
+      "ultima_atualizacao": "02/10/2026 11:17"
     }
   }
 }
