@@ -2445,7 +2445,7 @@
           "material": "Lacre",
           "unidade": "caixa",
           "minimo": 2,
-          "saldo": 4,
+          "saldo": 5,
           "historico": [
             {
               "data_hora": "18/08/2026 19:09:19",
@@ -2558,6 +2558,14 @@
               "saldo_anterior": 2,
               "saldo_novo": 4,
               "diferenca": 2
+            },
+            {
+              "data_hora": "02/10/2026 11:34:29",
+              "unidade": "CPQ08",
+              "tipo": "AJUSTE",
+              "saldo_anterior": 4,
+              "saldo_novo": 5,
+              "diferenca": 1
             }
           ]
         },
@@ -2952,7 +2960,7 @@
           "material": "Ribbon Zebra",
           "unidade": "unid",
           "minimo": 10,
-          "saldo": 409,
+          "saldo": 405,
           "historico": [
             {
               "data_hora": "18/08/2026 19:09:19",
@@ -2985,6 +2993,14 @@
               "saldo_anterior": 407,
               "saldo_novo": 409,
               "diferenca": 2
+            },
+            {
+              "data_hora": "02/10/2026 11:34:29",
+              "unidade": "CPQ08",
+              "tipo": "AJUSTE",
+              "saldo_anterior": 409,
+              "saldo_novo": 405,
+              "diferenca": -4
             }
           ]
         },
@@ -3992,7 +4008,7 @@
           ]
         }
       ],
-      "ultima_atualizacao": "02/10/2026 11:17"
+      "ultima_atualizacao": "02/10/2026 11:34"
     }
   }
 }
