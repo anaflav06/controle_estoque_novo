@@ -2217,7 +2217,7 @@
           "material": "Caixa de Vinho",
           "unidade": "unid",
           "minimo": 10,
-          "saldo": 0,
+          "saldo": 10,
           "historico": [
             {
               "data_hora": "18/08/2026 19:09:19",
@@ -2226,6 +2226,14 @@
               "saldo_anterior": null,
               "saldo_novo": 0,
               "diferenca": 0
+            },
+            {
+              "data_hora": "02/10/2026 12:17:28",
+              "unidade": "CPQ08",
+              "tipo": "AJUSTE",
+              "saldo_anterior": 0,
+              "saldo_novo": 10,
+              "diferenca": 10
             }
           ]
         },
@@ -4008,7 +4016,7 @@
           ]
         }
       ],
-      "ultima_atualizacao": "02/10/2026 11:34"
+      "ultima_atualizacao": "02/10/2026 12:17"
     }
   }
 }
