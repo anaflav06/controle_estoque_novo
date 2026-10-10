@@ -2428,7 +2428,7 @@
           "material": "Filme Stretch",
           "unidade": "unid",
           "minimo": 40,
-          "saldo": 120,
+          "saldo": 100,
           "historico": [
             {
               "data_hora": "18/08/2026 19:09:19",
@@ -2565,6 +2565,14 @@
               "saldo_anterior": 62,
               "saldo_novo": 120,
               "diferenca": 58
+            },
+            {
+              "data_hora": "10/10/2026 13:07:38",
+              "unidade": "CPQ08",
+              "tipo": "AJUSTE",
+              "saldo_anterior": 120,
+              "saldo_novo": 100,
+              "diferenca": -20
             }
           ]
         },
@@ -3477,7 +3485,7 @@
           "material": "Açúcar",
           "unidade": "unid",
           "minimo": 1,
-          "saldo": 1,
+          "saldo": 0,
           "historico": [
             {
               "data_hora": "18/08/2026 19:09:19",
@@ -3526,6 +3534,14 @@
               "saldo_anterior": 0,
               "saldo_novo": 1,
               "diferenca": 1
+            },
+            {
+              "data_hora": "10/10/2026 13:07:38",
+              "unidade": "CPQ08",
+              "tipo": "AJUSTE",
+              "saldo_anterior": 1,
+              "saldo_novo": 0,
+              "diferenca": -1
             }
           ]
         },
@@ -3534,7 +3550,7 @@
           "material": "Café",
           "unidade": "unid",
           "minimo": 1,
-          "saldo": 1,
+          "saldo": 0,
           "historico": [
             {
               "data_hora": "18/08/2026 19:09:19",
@@ -3583,6 +3599,14 @@
               "saldo_anterior": 0,
               "saldo_novo": 1,
               "diferenca": 1
+            },
+            {
+              "data_hora": "10/10/2026 13:07:38",
+              "unidade": "CPQ08",
+              "tipo": "AJUSTE",
+              "saldo_anterior": 1,
+              "saldo_novo": 0,
+              "diferenca": -1
             }
           ]
         },
@@ -3591,7 +3615,7 @@
           "material": "Copos Descartáveis",
           "unidade": "pacote",
           "minimo": 2,
-          "saldo": 9,
+          "saldo": 3,
           "historico": [
             {
               "data_hora": "18/08/2026 19:09:19",
@@ -3640,6 +3664,14 @@
               "saldo_anterior": 5,
               "saldo_novo": 9,
               "diferenca": 4
+            },
+            {
+              "data_hora": "10/10/2026 13:07:38",
+              "unidade": "CPQ08",
+              "tipo": "AJUSTE",
+              "saldo_anterior": 9,
+              "saldo_novo": 3,
+              "diferenca": -6
             }
           ]
         },
@@ -3837,7 +3869,7 @@
           "material": "Papel Higiênico",
           "unidade": "pacote",
           "minimo": 2,
-          "saldo": 1,
+          "saldo": 2,
           "historico": [
             {
               "data_hora": "18/08/2026 19:09:19",
@@ -3894,6 +3926,14 @@
               "saldo_anterior": 6,
               "saldo_novo": 1,
               "diferenca": -5
+            },
+            {
+              "data_hora": "10/10/2026 13:07:38",
+              "unidade": "CPQ08",
+              "tipo": "AJUSTE",
+              "saldo_anterior": 1,
+              "saldo_novo": 2,
+              "diferenca": 1
             }
           ]
         },
@@ -4160,7 +4200,7 @@
           ]
         }
       ],
-      "ultima_atualizacao": "06/10/2026 12:15"
+      "ultima_atualizacao": "10/10/2026 13:07"
     }
   }
 }
