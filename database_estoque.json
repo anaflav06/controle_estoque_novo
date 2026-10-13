@@ -2428,7 +2428,7 @@
           "material": "Filme Stretch",
           "unidade": "unid",
           "minimo": 40,
-          "saldo": 100,
+          "saldo": 93,
           "historico": [
             {
               "data_hora": "18/08/2026 19:09:19",
@@ -2573,6 +2573,14 @@
               "saldo_anterior": 120,
               "saldo_novo": 100,
               "diferenca": -20
+            },
+            {
+              "data_hora": "13/10/2026 11:23:11",
+              "unidade": "CPQ08",
+              "tipo": "AJUSTE",
+              "saldo_anterior": 100,
+              "saldo_novo": 93,
+              "diferenca": -7
             }
           ]
         },
@@ -3170,7 +3178,7 @@
           "material": "Canetas",
           "unidade": "unid",
           "minimo": 5,
-          "saldo": 40,
+          "saldo": 36,
           "historico": [
             {
               "data_hora": "18/08/2026 19:09:19",
@@ -3195,6 +3203,14 @@
               "saldo_anterior": 20,
               "saldo_novo": 40,
               "diferenca": 20
+            },
+            {
+              "data_hora": "13/10/2026 11:23:11",
+              "unidade": "CPQ08",
+              "tipo": "AJUSTE",
+              "saldo_anterior": 40,
+              "saldo_novo": 36,
+              "diferenca": -4
             }
           ]
         },
@@ -3427,7 +3443,7 @@
           "material": "Estilete",
           "unidade": "unid",
           "minimo": 5,
-          "saldo": 12,
+          "saldo": 3,
           "historico": [
             {
               "data_hora": "18/08/2026 19:09:19",
@@ -3444,6 +3460,14 @@
               "saldo_anterior": 0,
               "saldo_novo": 12,
               "diferenca": 12
+            },
+            {
+              "data_hora": "13/10/2026 11:23:11",
+              "unidade": "CPQ08",
+              "tipo": "AJUSTE",
+              "saldo_anterior": 12,
+              "saldo_novo": 3,
+              "diferenca": -9
             }
           ]
         },
@@ -4121,7 +4145,7 @@
           "material": "Saco para Lixeira Grande",
           "unidade": "pacote",
           "minimo": 1,
-          "saldo": 1,
+          "saldo": 0,
           "historico": [
             {
               "data_hora": "18/08/2026 19:09:19",
@@ -4162,6 +4186,14 @@
               "saldo_anterior": 0,
               "saldo_novo": 1,
               "diferenca": 1
+            },
+            {
+              "data_hora": "13/10/2026 11:23:11",
+              "unidade": "CPQ08",
+              "tipo": "AJUSTE",
+              "saldo_anterior": 1,
+              "saldo_novo": 0,
+              "diferenca": -1
             }
           ]
         },
@@ -4170,7 +4202,7 @@
           "material": "Sabonete Líquido",
           "minimo": 1,
           "unidade": "unid",
-          "saldo": 1,
+          "saldo": 0,
           "historico": [
             {
               "data_hora": "15/09/2026 20:25:20",
@@ -4179,6 +4211,14 @@
               "saldo_anterior": 0,
               "saldo_novo": 1,
               "diferenca": 1
+            },
+            {
+              "data_hora": "13/10/2026 11:23:11",
+              "unidade": "CPQ08",
+              "tipo": "AJUSTE",
+              "saldo_anterior": 1,
+              "saldo_novo": 0,
+              "diferenca": -1
             }
           ]
         },
@@ -4187,7 +4227,7 @@
           "material": "Desinfetante",
           "minimo": 1,
           "unidade": "unid",
-          "saldo": 1,
+          "saldo": 2,
           "historico": [
             {
               "data_hora": "30/09/2026 18:05:09",
@@ -4196,11 +4236,19 @@
               "saldo_anterior": 0,
               "saldo_novo": 1,
               "diferenca": 1
+            },
+            {
+              "data_hora": "13/10/2026 11:23:11",
+              "unidade": "CPQ08",
+              "tipo": "AJUSTE",
+              "saldo_anterior": 1,
+              "saldo_novo": 2,
+              "diferenca": 1
             }
           ]
         }
       ],
-      "ultima_atualizacao": "10/10/2026 13:07"
+      "ultima_atualizacao": "13/10/2026 11:23"
     }
   }
 }
