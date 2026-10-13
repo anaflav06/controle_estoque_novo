@@ -4096,7 +4096,7 @@
           "material": "Saco para Lixeira Pequeno",
           "unidade": "pacote",
           "minimo": 1,
-          "saldo": 1,
+          "saldo": 0,
           "historico": [
             {
               "data_hora": "18/08/2026 19:09:19",
@@ -4137,6 +4137,14 @@
               "saldo_anterior": 0,
               "saldo_novo": 1,
               "diferenca": 1
+            },
+            {
+              "data_hora": "13/10/2026 11:24:32",
+              "unidade": "CPQ08",
+              "tipo": "AJUSTE",
+              "saldo_anterior": 1,
+              "saldo_novo": 0,
+              "diferenca": -1
             }
           ]
         },
@@ -4256,7 +4264,7 @@
           ]
         }
       ],
-      "ultima_atualizacao": "13/10/2026 11:23"
+      "ultima_atualizacao": "13/10/2026 11:24"
     }
   }
 }
