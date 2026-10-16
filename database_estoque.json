@@ -2588,7 +2588,7 @@
           "material": "Filme Stretch",
           "unidade": "unid",
           "minimo": 40,
-          "saldo": 93,
+          "saldo": 86,
           "historico": [
             {
               "data_hora": "18/08/2026 19:09:19",
@@ -2740,6 +2740,14 @@
               "tipo": "AJUSTE",
               "saldo_anterior": 100,
               "saldo_novo": 93,
+              "diferenca": -7
+            },
+            {
+              "data_hora": "16/10/2026 17:41:15",
+              "unidade": "CPQ08",
+              "tipo": "AJUSTE",
+              "saldo_anterior": 93,
+              "saldo_novo": 86,
               "diferenca": -7
             }
           ]
@@ -3603,7 +3611,7 @@
           "material": "Estilete",
           "unidade": "unid",
           "minimo": 5,
-          "saldo": 3,
+          "saldo": 13,
           "historico": [
             {
               "data_hora": "18/08/2026 19:09:19",
@@ -3628,6 +3636,14 @@
               "saldo_anterior": 12,
               "saldo_novo": 3,
               "diferenca": -9
+            },
+            {
+              "data_hora": "16/10/2026 17:41:15",
+              "unidade": "CPQ08",
+              "tipo": "AJUSTE",
+              "saldo_anterior": 3,
+              "saldo_novo": 13,
+              "diferenca": 10
             }
           ]
         },
@@ -3669,7 +3685,7 @@
           "material": "Açúcar",
           "unidade": "unid",
           "minimo": 1,
-          "saldo": 0,
+          "saldo": 1,
           "historico": [
             {
               "data_hora": "18/08/2026 19:09:19",
@@ -3726,6 +3742,14 @@
               "saldo_anterior": 1,
               "saldo_novo": 0,
               "diferenca": -1
+            },
+            {
+              "data_hora": "16/10/2026 17:41:15",
+              "unidade": "CPQ08",
+              "tipo": "AJUSTE",
+              "saldo_anterior": 0,
+              "saldo_novo": 1,
+              "diferenca": 1
             }
           ]
         },
@@ -4126,7 +4150,7 @@
           "material": "Papel Toalha",
           "unidade": "pacote",
           "minimo": 2,
-          "saldo": 0,
+          "saldo": 2,
           "historico": [
             {
               "data_hora": "18/08/2026 19:09:19",
@@ -4223,6 +4247,14 @@
               "saldo_anterior": 2,
               "saldo_novo": 0,
               "diferenca": -2
+            },
+            {
+              "data_hora": "16/10/2026 17:41:15",
+              "unidade": "CPQ08",
+              "tipo": "AJUSTE",
+              "saldo_anterior": 0,
+              "saldo_novo": 2,
+              "diferenca": 2
             }
           ]
         },
@@ -4256,7 +4288,7 @@
           "material": "Saco para Lixeira Pequeno",
           "unidade": "pacote",
           "minimo": 1,
-          "saldo": 0,
+          "saldo": 1,
           "historico": [
             {
               "data_hora": "18/08/2026 19:09:19",
@@ -4305,6 +4337,14 @@
               "saldo_anterior": 1,
               "saldo_novo": 0,
               "diferenca": -1
+            },
+            {
+              "data_hora": "16/10/2026 17:41:15",
+              "unidade": "CPQ08",
+              "tipo": "AJUSTE",
+              "saldo_anterior": 0,
+              "saldo_novo": 1,
+              "diferenca": 1
             }
           ]
         },
@@ -4313,7 +4353,7 @@
           "material": "Saco para Lixeira Grande",
           "unidade": "pacote",
           "minimo": 1,
-          "saldo": 0,
+          "saldo": 1,
           "historico": [
             {
               "data_hora": "18/08/2026 19:09:19",
@@ -4362,6 +4402,14 @@
               "saldo_anterior": 1,
               "saldo_novo": 0,
               "diferenca": -1
+            },
+            {
+              "data_hora": "16/10/2026 17:41:15",
+              "unidade": "CPQ08",
+              "tipo": "AJUSTE",
+              "saldo_anterior": 0,
+              "saldo_novo": 1,
+              "diferenca": 1
             }
           ]
         },
@@ -4424,7 +4472,7 @@
           ]
         }
       ],
-      "ultima_atualizacao": "14/10/2026 18:21"
+      "ultima_atualizacao": "16/10/2026 17:41"
     }
   }
 }
