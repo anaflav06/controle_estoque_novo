@@ -2522,7 +2522,7 @@
           "material": "Envelope Azul/Flyer",
           "unidade": "unid",
           "minimo": 20,
-          "saldo": 99,
+          "saldo": 96,
           "historico": [
             {
               "data_hora": "18/08/2026 19:09:19",
@@ -2555,6 +2555,14 @@
               "saldo_anterior": 49,
               "saldo_novo": 99,
               "diferenca": 50
+            },
+            {
+              "data_hora": "19/10/2026 13:10:26",
+              "unidade": "CPQ08",
+              "tipo": "AJUSTE",
+              "saldo_anterior": 99,
+              "saldo_novo": 96,
+              "diferenca": -3
             }
           ]
         },
@@ -2588,7 +2596,7 @@
           "material": "Filme Stretch",
           "unidade": "unid",
           "minimo": 40,
-          "saldo": 86,
+          "saldo": 84,
           "historico": [
             {
               "data_hora": "18/08/2026 19:09:19",
@@ -2749,6 +2757,14 @@
               "saldo_anterior": 93,
               "saldo_novo": 86,
               "diferenca": -7
+            },
+            {
+              "data_hora": "19/10/2026 13:10:26",
+              "unidade": "CPQ08",
+              "tipo": "AJUSTE",
+              "saldo_anterior": 86,
+              "saldo_novo": 84,
+              "diferenca": -2
             }
           ]
         },
@@ -3231,7 +3247,7 @@
           "material": "Etiqueta Zebra",
           "unidade": "unid",
           "minimo": 10,
-          "saldo": 240,
+          "saldo": 226,
           "historico": [
             {
               "data_hora": "18/08/2026 19:09:19",
@@ -3264,6 +3280,14 @@
               "saldo_anterior": 238,
               "saldo_novo": 240,
               "diferenca": 2
+            },
+            {
+              "data_hora": "19/10/2026 13:10:26",
+              "unidade": "CPQ08",
+              "tipo": "AJUSTE",
+              "saldo_anterior": 240,
+              "saldo_novo": 226,
+              "diferenca": -14
             }
           ]
         },
@@ -3272,7 +3296,7 @@
           "material": "Ribbon Zebra",
           "unidade": "unid",
           "minimo": 10,
-          "saldo": 405,
+          "saldo": 396,
           "historico": [
             {
               "data_hora": "18/08/2026 19:09:19",
@@ -3313,6 +3337,14 @@
               "saldo_anterior": 409,
               "saldo_novo": 405,
               "diferenca": -4
+            },
+            {
+              "data_hora": "19/10/2026 13:10:26",
+              "unidade": "CPQ08",
+              "tipo": "AJUSTE",
+              "saldo_anterior": 405,
+              "saldo_novo": 396,
+              "diferenca": -9
             }
           ]
         },
@@ -3420,7 +3452,7 @@
           "material": "Sulfite",
           "unidade": "unid",
           "minimo": 5,
-          "saldo": 5,
+          "saldo": 4,
           "historico": [
             {
               "data_hora": "18/08/2026 19:09:19",
@@ -3445,6 +3477,14 @@
               "saldo_anterior": 1,
               "saldo_novo": 5,
               "diferenca": 4
+            },
+            {
+              "data_hora": "19/10/2026 13:10:26",
+              "unidade": "CPQ08",
+              "tipo": "AJUSTE",
+              "saldo_anterior": 5,
+              "saldo_novo": 4,
+              "diferenca": -1
             }
           ]
         },
@@ -3823,7 +3863,7 @@
           "material": "Copos Descartáveis",
           "unidade": "pacote",
           "minimo": 2,
-          "saldo": 3,
+          "saldo": 2,
           "historico": [
             {
               "data_hora": "18/08/2026 19:09:19",
@@ -3880,6 +3920,14 @@
               "saldo_anterior": 9,
               "saldo_novo": 3,
               "diferenca": -6
+            },
+            {
+              "data_hora": "19/10/2026 13:10:26",
+              "unidade": "CPQ08",
+              "tipo": "AJUSTE",
+              "saldo_anterior": 3,
+              "saldo_novo": 2,
+              "diferenca": -1
             }
           ]
         },
@@ -3888,7 +3936,7 @@
           "material": "Filtro de Café",
           "unidade": "unid",
           "minimo": 1,
-          "saldo": 1,
+          "saldo": 0,
           "historico": [
             {
               "data_hora": "18/08/2026 19:09:19",
@@ -3921,6 +3969,14 @@
               "saldo_anterior": 0,
               "saldo_novo": 1,
               "diferenca": 1
+            },
+            {
+              "data_hora": "19/10/2026 13:10:26",
+              "unidade": "CPQ08",
+              "tipo": "AJUSTE",
+              "saldo_anterior": 1,
+              "saldo_novo": 0,
+              "diferenca": -1
             }
           ]
         },
@@ -4150,7 +4206,7 @@
           "material": "Papel Toalha",
           "unidade": "pacote",
           "minimo": 2,
-          "saldo": 2,
+          "saldo": 1,
           "historico": [
             {
               "data_hora": "18/08/2026 19:09:19",
@@ -4255,6 +4311,14 @@
               "saldo_anterior": 0,
               "saldo_novo": 2,
               "diferenca": 2
+            },
+            {
+              "data_hora": "19/10/2026 13:10:26",
+              "unidade": "CPQ08",
+              "tipo": "AJUSTE",
+              "saldo_anterior": 2,
+              "saldo_novo": 1,
+              "diferenca": -1
             }
           ]
         },
@@ -4472,7 +4536,7 @@
           ]
         }
       ],
-      "ultima_atualizacao": "16/10/2026 17:41"
+      "ultima_atualizacao": "19/10/2026 13:10"
     }
   }
 }
