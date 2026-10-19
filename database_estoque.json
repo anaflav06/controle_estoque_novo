@@ -3452,7 +3452,7 @@
           "material": "Sulfite",
           "unidade": "unid",
           "minimo": 5,
-          "saldo": 4,
+          "saldo": 5,
           "historico": [
             {
               "data_hora": "18/08/2026 19:09:19",
@@ -3485,6 +3485,14 @@
               "saldo_anterior": 5,
               "saldo_novo": 4,
               "diferenca": -1
+            },
+            {
+              "data_hora": "19/10/2026 13:10:48",
+              "unidade": "CPQ08",
+              "tipo": "AJUSTE",
+              "saldo_anterior": 4,
+              "saldo_novo": 5,
+              "diferenca": 1
             }
           ]
         },
