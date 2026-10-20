@@ -7,7 +7,7 @@
           "material": "Caixa Pequena",
           "unidade": "unid",
           "minimo": 10,
-          "saldo": 117,
+          "saldo": 115,
           "historico": [
             {
               "data_hora": "18/08/2026 20:59:39",
@@ -112,6 +112,14 @@
               "saldo_anterior": 115,
               "saldo_novo": 117,
               "diferenca": 2
+            },
+            {
+              "data_hora": "20/10/2026 12:49:58",
+              "unidade": "SAO12",
+              "tipo": "AJUSTE",
+              "saldo_anterior": 117,
+              "saldo_novo": 115,
+              "diferenca": -2
             }
           ]
         },
@@ -186,7 +194,7 @@
           "material": "Envelope Azul/Flyer",
           "unidade": "unid",
           "minimo": 20,
-          "saldo": 234,
+          "saldo": 232,
           "historico": [
             {
               "data_hora": "18/08/2026 20:59:39",
@@ -283,6 +291,14 @@
               "saldo_anterior": 232,
               "saldo_novo": 234,
               "diferenca": 2
+            },
+            {
+              "data_hora": "20/10/2026 12:49:58",
+              "unidade": "SAO12",
+              "tipo": "AJUSTE",
+              "saldo_anterior": 234,
+              "saldo_novo": 232,
+              "diferenca": -2
             }
           ]
         },
@@ -332,7 +348,7 @@
           "material": "Filme Stretch",
           "unidade": "unid",
           "minimo": 2,
-          "saldo": 5,
+          "saldo": 4,
           "historico": [
             {
               "data_hora": "18/08/2026 20:59:39",
@@ -364,6 +380,14 @@
               "tipo": "AJUSTE",
               "saldo_anterior": 6,
               "saldo_novo": 5,
+              "diferenca": -1
+            },
+            {
+              "data_hora": "20/10/2026 12:49:58",
+              "unidade": "SAO12",
+              "tipo": "AJUSTE",
+              "saldo_anterior": 5,
+              "saldo_novo": 4,
               "diferenca": -1
             }
           ]
@@ -414,7 +438,7 @@
           "material": "Fita Durex Azul",
           "unidade": "unid",
           "minimo": 10,
-          "saldo": 10,
+          "saldo": 7,
           "historico": [
             {
               "data_hora": "18/08/2026 20:59:39",
@@ -527,6 +551,14 @@
               "saldo_anterior": 7,
               "saldo_novo": 10,
               "diferenca": 3
+            },
+            {
+              "data_hora": "20/10/2026 12:49:58",
+              "unidade": "SAO12",
+              "tipo": "AJUSTE",
+              "saldo_anterior": 10,
+              "saldo_novo": 7,
+              "diferenca": -3
             }
           ]
         },
@@ -535,7 +567,7 @@
           "material": "Fita Durex Transparente",
           "unidade": "unid",
           "minimo": 10,
-          "saldo": 10,
+          "saldo": 12,
           "historico": [
             {
               "data_hora": "18/08/2026 20:59:39",
@@ -648,6 +680,14 @@
               "saldo_anterior": 12,
               "saldo_novo": 10,
               "diferenca": -2
+            },
+            {
+              "data_hora": "20/10/2026 12:49:58",
+              "unidade": "SAO12",
+              "tipo": "AJUSTE",
+              "saldo_anterior": 10,
+              "saldo_novo": 12,
+              "diferenca": 2
             }
           ]
         },
@@ -1244,7 +1284,7 @@
           "material": "Sulfite",
           "unidade": "unid",
           "minimo": 5,
-          "saldo": 5,
+          "saldo": 4,
           "historico": [
             {
               "data_hora": "18/08/2026 20:59:39",
@@ -1325,6 +1365,14 @@
               "saldo_anterior": 4,
               "saldo_novo": 5,
               "diferenca": 1
+            },
+            {
+              "data_hora": "20/10/2026 12:49:58",
+              "unidade": "SAO12",
+              "tipo": "AJUSTE",
+              "saldo_anterior": 5,
+              "saldo_novo": 4,
+              "diferenca": -1
             }
           ]
         },
