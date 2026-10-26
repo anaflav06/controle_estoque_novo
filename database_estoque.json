@@ -2732,7 +2732,7 @@
           "material": "Envelope Azul/Flyer",
           "unidade": "unid",
           "minimo": 20,
-          "saldo": 96,
+          "saldo": 94,
           "historico": [
             {
               "data_hora": "18/08/2026 19:09:19",
@@ -2773,6 +2773,14 @@
               "saldo_anterior": 99,
               "saldo_novo": 96,
               "diferenca": -3
+            },
+            {
+              "data_hora": "26/10/2026 11:15:47",
+              "unidade": "CPQ08",
+              "tipo": "AJUSTE",
+              "saldo_anterior": 96,
+              "saldo_novo": 94,
+              "diferenca": -2
             }
           ]
         },
@@ -2806,7 +2814,7 @@
           "material": "Filme Stretch",
           "unidade": "unid",
           "minimo": 40,
-          "saldo": 84,
+          "saldo": 81,
           "historico": [
             {
               "data_hora": "18/08/2026 19:09:19",
@@ -2975,6 +2983,14 @@
               "saldo_anterior": 86,
               "saldo_novo": 84,
               "diferenca": -2
+            },
+            {
+              "data_hora": "26/10/2026 11:15:47",
+              "unidade": "CPQ08",
+              "tipo": "AJUSTE",
+              "saldo_anterior": 84,
+              "saldo_novo": 81,
+              "diferenca": -3
             }
           ]
         },
@@ -4024,7 +4040,7 @@
           "material": "Café",
           "unidade": "unid",
           "minimo": 1,
-          "saldo": 0,
+          "saldo": 1,
           "historico": [
             {
               "data_hora": "18/08/2026 19:09:19",
@@ -4081,6 +4097,14 @@
               "saldo_anterior": 1,
               "saldo_novo": 0,
               "diferenca": -1
+            },
+            {
+              "data_hora": "26/10/2026 11:15:47",
+              "unidade": "CPQ08",
+              "tipo": "AJUSTE",
+              "saldo_anterior": 0,
+              "saldo_novo": 1,
+              "diferenca": 1
             }
           ]
         },
@@ -4359,7 +4383,7 @@
           "material": "Papel Higiênico",
           "unidade": "pacote",
           "minimo": 2,
-          "saldo": 2,
+          "saldo": 0,
           "historico": [
             {
               "data_hora": "18/08/2026 19:09:19",
@@ -4424,6 +4448,14 @@
               "saldo_anterior": 1,
               "saldo_novo": 2,
               "diferenca": 1
+            },
+            {
+              "data_hora": "26/10/2026 11:15:47",
+              "unidade": "CPQ08",
+              "tipo": "AJUSTE",
+              "saldo_anterior": 2,
+              "saldo_novo": 0,
+              "diferenca": -2
             }
           ]
         },
@@ -4432,7 +4464,7 @@
           "material": "Papel Toalha",
           "unidade": "pacote",
           "minimo": 2,
-          "saldo": 1,
+          "saldo": 0,
           "historico": [
             {
               "data_hora": "18/08/2026 19:09:19",
@@ -4545,6 +4577,14 @@
               "saldo_anterior": 2,
               "saldo_novo": 1,
               "diferenca": -1
+            },
+            {
+              "data_hora": "26/10/2026 11:15:47",
+              "unidade": "CPQ08",
+              "tipo": "AJUSTE",
+              "saldo_anterior": 1,
+              "saldo_novo": 0,
+              "diferenca": -1
             }
           ]
         },
@@ -4578,7 +4618,7 @@
           "material": "Saco para Lixeira Pequeno",
           "unidade": "pacote",
           "minimo": 1,
-          "saldo": 1,
+          "saldo": 0,
           "historico": [
             {
               "data_hora": "18/08/2026 19:09:19",
@@ -4635,6 +4675,14 @@
               "saldo_anterior": 0,
               "saldo_novo": 1,
               "diferenca": 1
+            },
+            {
+              "data_hora": "26/10/2026 11:15:47",
+              "unidade": "CPQ08",
+              "tipo": "AJUSTE",
+              "saldo_anterior": 1,
+              "saldo_novo": 0,
+              "diferenca": -1
             }
           ]
         },
@@ -4643,7 +4691,7 @@
           "material": "Saco para Lixeira Grande",
           "unidade": "pacote",
           "minimo": 1,
-          "saldo": 1,
+          "saldo": 0,
           "historico": [
             {
               "data_hora": "18/08/2026 19:09:19",
@@ -4700,6 +4748,14 @@
               "saldo_anterior": 0,
               "saldo_novo": 1,
               "diferenca": 1
+            },
+            {
+              "data_hora": "26/10/2026 11:15:47",
+              "unidade": "CPQ08",
+              "tipo": "AJUSTE",
+              "saldo_anterior": 1,
+              "saldo_novo": 0,
+              "diferenca": -1
             }
           ]
         },
@@ -4741,7 +4797,7 @@
           "material": "Desinfetante",
           "minimo": 1,
           "unidade": "unid",
-          "saldo": 2,
+          "saldo": 0,
           "historico": [
             {
               "data_hora": "30/09/2026 18:05:09",
@@ -4758,11 +4814,19 @@
               "saldo_anterior": 1,
               "saldo_novo": 2,
               "diferenca": 1
+            },
+            {
+              "data_hora": "26/10/2026 11:15:47",
+              "unidade": "CPQ08",
+              "tipo": "AJUSTE",
+              "saldo_anterior": 2,
+              "saldo_novo": 0,
+              "diferenca": -2
             }
           ]
         }
       ],
-      "ultima_atualizacao": "19/10/2026 18:29"
+      "ultima_atualizacao": "26/10/2026 11:15"
     }
   }
 }
