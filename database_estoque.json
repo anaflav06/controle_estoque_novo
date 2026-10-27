@@ -7,7 +7,7 @@
           "material": "Caixa Pequena",
           "unidade": "unid",
           "minimo": 10,
-          "saldo": 115,
+          "saldo": 110,
           "historico": [
             {
               "data_hora": "18/08/2026 20:59:39",
@@ -120,6 +120,14 @@
               "saldo_anterior": 117,
               "saldo_novo": 115,
               "diferenca": -2
+            },
+            {
+              "data_hora": "27/10/2026 17:31:10",
+              "unidade": "SAO12",
+              "tipo": "AJUSTE",
+              "saldo_anterior": 115,
+              "saldo_novo": 110,
+              "diferenca": -5
             }
           ]
         },
@@ -397,7 +405,7 @@
           "material": "Lacre",
           "unidade": "pacote",
           "minimo": 1,
-          "saldo": 2,
+          "saldo": 1,
           "historico": [
             {
               "data_hora": "18/08/2026 20:59:39",
@@ -430,6 +438,14 @@
               "saldo_anterior": 3,
               "saldo_novo": 2,
               "diferenca": -1
+            },
+            {
+              "data_hora": "27/10/2026 17:31:10",
+              "unidade": "SAO12",
+              "tipo": "AJUSTE",
+              "saldo_anterior": 2,
+              "saldo_novo": 1,
+              "diferenca": -1
             }
           ]
         },
@@ -438,7 +454,7 @@
           "material": "Fita Durex Azul",
           "unidade": "unid",
           "minimo": 10,
-          "saldo": 13,
+          "saldo": 10,
           "historico": [
             {
               "data_hora": "18/08/2026 20:59:39",
@@ -567,6 +583,14 @@
               "saldo_anterior": 7,
               "saldo_novo": 13,
               "diferenca": 6
+            },
+            {
+              "data_hora": "27/10/2026 17:31:10",
+              "unidade": "SAO12",
+              "tipo": "AJUSTE",
+              "saldo_anterior": 13,
+              "saldo_novo": 10,
+              "diferenca": -3
             }
           ]
         },
@@ -575,7 +599,7 @@
           "material": "Fita Durex Transparente",
           "unidade": "unid",
           "minimo": 10,
-          "saldo": 12,
+          "saldo": 13,
           "historico": [
             {
               "data_hora": "18/08/2026 20:59:39",
@@ -696,6 +720,14 @@
               "saldo_anterior": 10,
               "saldo_novo": 12,
               "diferenca": 2
+            },
+            {
+              "data_hora": "27/10/2026 17:31:10",
+              "unidade": "SAO12",
+              "tipo": "AJUSTE",
+              "saldo_anterior": 12,
+              "saldo_novo": 13,
+              "diferenca": 1
             }
           ]
         },
@@ -876,7 +908,7 @@
           "material": "Etiqueta Expresso",
           "unidade": "bloco",
           "minimo": 1,
-          "saldo": 1,
+          "saldo": 0,
           "historico": [
             {
               "data_hora": "18/08/2026 20:59:39",
@@ -957,6 +989,14 @@
               "saldo_anterior": 0,
               "saldo_novo": 1,
               "diferenca": 1
+            },
+            {
+              "data_hora": "27/10/2026 17:31:10",
+              "unidade": "SAO12",
+              "tipo": "AJUSTE",
+              "saldo_anterior": 1,
+              "saldo_novo": 0,
+              "diferenca": -1
             }
           ]
         },
@@ -1031,7 +1071,7 @@
           "material": "Etiqueta Zebra",
           "unidade": "unid",
           "minimo": 5,
-          "saldo": 5,
+          "saldo": 4,
           "historico": [
             {
               "data_hora": "18/08/2026 20:59:39",
@@ -1080,6 +1120,14 @@
               "saldo_anterior": 4,
               "saldo_novo": 5,
               "diferenca": 1
+            },
+            {
+              "data_hora": "27/10/2026 17:31:10",
+              "unidade": "SAO12",
+              "tipo": "AJUSTE",
+              "saldo_anterior": 5,
+              "saldo_novo": 4,
+              "diferenca": -1
             }
           ]
         },
@@ -1389,7 +1437,7 @@
           "material": "Toner / Tinta de Impressora",
           "unidade": "unid",
           "minimo": 1,
-          "saldo": 0,
+          "saldo": 1,
           "historico": [
             {
               "data_hora": "18/08/2026 20:59:39",
@@ -1470,6 +1518,14 @@
               "saldo_anterior": 1,
               "saldo_novo": 0,
               "diferenca": -1
+            },
+            {
+              "data_hora": "27/10/2026 17:31:10",
+              "unidade": "SAO12",
+              "tipo": "AJUSTE",
+              "saldo_anterior": 0,
+              "saldo_novo": 1,
+              "diferenca": 1
             }
           ]
         },
@@ -1478,7 +1534,7 @@
           "material": "Caixa de Arquivo de Papelão",
           "unidade": "unid",
           "minimo": 5,
-          "saldo": 14,
+          "saldo": 12,
           "historico": [
             {
               "data_hora": "18/08/2026 20:59:39",
@@ -1551,6 +1607,14 @@
               "saldo_anterior": 4,
               "saldo_novo": 14,
               "diferenca": 10
+            },
+            {
+              "data_hora": "27/10/2026 17:31:10",
+              "unidade": "SAO12",
+              "tipo": "AJUSTE",
+              "saldo_anterior": 14,
+              "saldo_novo": 12,
+              "diferenca": -2
             }
           ]
         },
@@ -1797,7 +1861,7 @@
           "material": "Açúcar",
           "unidade": "unid",
           "minimo": 1,
-          "saldo": 1,
+          "saldo": 0,
           "historico": [
             {
               "data_hora": "18/08/2026 20:59:39",
@@ -1830,6 +1894,14 @@
               "saldo_anterior": 0,
               "saldo_novo": 1,
               "diferenca": 1
+            },
+            {
+              "data_hora": "27/10/2026 17:31:10",
+              "unidade": "SAO12",
+              "tipo": "AJUSTE",
+              "saldo_anterior": 1,
+              "saldo_novo": 0,
+              "diferenca": -1
             }
           ]
         },
@@ -2632,7 +2704,7 @@
           ]
         }
       ],
-      "ultima_atualizacao": "21/10/2026 15:15"
+      "ultima_atualizacao": "27/10/2026 17:31"
     },
     "CPQ08": {
       "itens": [
