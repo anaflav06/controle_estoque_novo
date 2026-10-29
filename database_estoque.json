@@ -3610,7 +3610,7 @@
           "material": "Ribbon Zebra",
           "unidade": "unid",
           "minimo": 10,
-          "saldo": 396,
+          "saldo": 388,
           "historico": [
             {
               "data_hora": "18/08/2026 19:09:19",
@@ -3659,6 +3659,14 @@
               "saldo_anterior": 405,
               "saldo_novo": 396,
               "diferenca": -9
+            },
+            {
+              "data_hora": "29/10/2026 11:50:04",
+              "unidade": "CPQ08",
+              "tipo": "AJUSTE",
+              "saldo_anterior": 396,
+              "saldo_novo": 388,
+              "diferenca": -8
             }
           ]
         },
@@ -5026,7 +5034,7 @@
           ]
         }
       ],
-      "ultima_atualizacao": "29/10/2026 11:49"
+      "ultima_atualizacao": "29/10/2026 11:50"
     }
   }
 }
