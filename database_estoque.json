@@ -4519,7 +4519,7 @@
           "material": "Papel Higiênico",
           "unidade": "pacote",
           "minimo": 2,
-          "saldo": 3,
+          "saldo": 4,
           "historico": [
             {
               "data_hora": "18/08/2026 19:09:19",
@@ -4600,6 +4600,14 @@
               "saldo_anterior": 0,
               "saldo_novo": 3,
               "diferenca": 3
+            },
+            {
+              "data_hora": "29/10/2026 11:49:14",
+              "unidade": "CPQ08",
+              "tipo": "AJUSTE",
+              "saldo_anterior": 3,
+              "saldo_novo": 4,
+              "diferenca": 1
             }
           ]
         },
@@ -4608,7 +4616,7 @@
           "material": "Papel Toalha",
           "unidade": "pacote",
           "minimo": 2,
-          "saldo": 0,
+          "saldo": 2,
           "historico": [
             {
               "data_hora": "18/08/2026 19:09:19",
@@ -4729,6 +4737,14 @@
               "saldo_anterior": 1,
               "saldo_novo": 0,
               "diferenca": -1
+            },
+            {
+              "data_hora": "29/10/2026 11:49:14",
+              "unidade": "CPQ08",
+              "tipo": "AJUSTE",
+              "saldo_anterior": 0,
+              "saldo_novo": 2,
+              "diferenca": 2
             }
           ]
         },
@@ -4941,7 +4957,7 @@
           "material": "Desinfetante",
           "minimo": 1,
           "unidade": "unid",
-          "saldo": 0,
+          "saldo": 1,
           "historico": [
             {
               "data_hora": "30/09/2026 18:05:09",
@@ -4966,11 +4982,19 @@
               "saldo_anterior": 2,
               "saldo_novo": 0,
               "diferenca": -2
+            },
+            {
+              "data_hora": "29/10/2026 11:49:14",
+              "unidade": "CPQ08",
+              "tipo": "AJUSTE",
+              "saldo_anterior": 0,
+              "saldo_novo": 1,
+              "diferenca": 1
             }
           ]
         }
       ],
-      "ultima_atualizacao": "28/10/2026 18:39"
+      "ultima_atualizacao": "29/10/2026 11:49"
     }
   }
 }
