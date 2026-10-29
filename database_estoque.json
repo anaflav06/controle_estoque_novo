@@ -2804,7 +2804,7 @@
           "material": "Envelope Azul/Flyer",
           "unidade": "unid",
           "minimo": 20,
-          "saldo": 94,
+          "saldo": 89,
           "historico": [
             {
               "data_hora": "18/08/2026 19:09:19",
@@ -2853,6 +2853,14 @@
               "saldo_anterior": 96,
               "saldo_novo": 94,
               "diferenca": -2
+            },
+            {
+              "data_hora": "29/10/2026 11:49:53",
+              "unidade": "CPQ08",
+              "tipo": "AJUSTE",
+              "saldo_anterior": 94,
+              "saldo_novo": 89,
+              "diferenca": -5
             }
           ]
         },
@@ -2886,7 +2894,7 @@
           "material": "Filme Stretch",
           "unidade": "unid",
           "minimo": 40,
-          "saldo": 81,
+          "saldo": 73,
           "historico": [
             {
               "data_hora": "18/08/2026 19:09:19",
@@ -3063,6 +3071,14 @@
               "saldo_anterior": 84,
               "saldo_novo": 81,
               "diferenca": -3
+            },
+            {
+              "data_hora": "29/10/2026 11:49:53",
+              "unidade": "CPQ08",
+              "tipo": "AJUSTE",
+              "saldo_anterior": 81,
+              "saldo_novo": 73,
+              "diferenca": -8
             }
           ]
         },
