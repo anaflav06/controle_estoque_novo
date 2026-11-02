@@ -2926,7 +2926,7 @@
           "material": "Filme Stretch",
           "unidade": "unid",
           "minimo": 40,
-          "saldo": 73,
+          "saldo": 65,
           "historico": [
             {
               "data_hora": "18/08/2026 19:09:19",
@@ -3111,6 +3111,14 @@
               "saldo_anterior": 81,
               "saldo_novo": 73,
               "diferenca": -8
+            },
+            {
+              "data_hora": "02/11/2026 11:20:09",
+              "unidade": "CPQ08",
+              "tipo": "AJUSTE",
+              "saldo_anterior": 73,
+              "saldo_novo": 65,
+              "diferenca": -8
             }
           ]
         },
@@ -3248,7 +3256,7 @@
           "material": "Fita Durex Azul",
           "unidade": "unid",
           "minimo": 5,
-          "saldo": 50,
+          "saldo": 47,
           "historico": [
             {
               "data_hora": "18/08/2026 19:09:19",
@@ -3281,6 +3289,14 @@
               "saldo_anterior": 41,
               "saldo_novo": 50,
               "diferenca": 9
+            },
+            {
+              "data_hora": "02/11/2026 11:20:09",
+              "unidade": "CPQ08",
+              "tipo": "AJUSTE",
+              "saldo_anterior": 50,
+              "saldo_novo": 47,
+              "diferenca": -3
             }
           ]
         },
@@ -3593,7 +3609,7 @@
           "material": "Etiqueta Zebra",
           "unidade": "unid",
           "minimo": 10,
-          "saldo": 226,
+          "saldo": 210,
           "historico": [
             {
               "data_hora": "18/08/2026 19:09:19",
@@ -3634,6 +3650,14 @@
               "saldo_anterior": 240,
               "saldo_novo": 226,
               "diferenca": -14
+            },
+            {
+              "data_hora": "02/11/2026 11:20:09",
+              "unidade": "CPQ08",
+              "tipo": "AJUSTE",
+              "saldo_anterior": 226,
+              "saldo_novo": 210,
+              "diferenca": -16
             }
           ]
         },
@@ -3642,7 +3666,7 @@
           "material": "Ribbon Zebra",
           "unidade": "unid",
           "minimo": 10,
-          "saldo": 388,
+          "saldo": 380,
           "historico": [
             {
               "data_hora": "18/08/2026 19:09:19",
@@ -3698,6 +3722,14 @@
               "tipo": "AJUSTE",
               "saldo_anterior": 396,
               "saldo_novo": 388,
+              "diferenca": -8
+            },
+            {
+              "data_hora": "02/11/2026 11:20:09",
+              "unidade": "CPQ08",
+              "tipo": "AJUSTE",
+              "saldo_anterior": 388,
+              "saldo_novo": 380,
               "diferenca": -8
             }
           ]
@@ -4485,7 +4517,7 @@
           "material": "Detergente",
           "unidade": "unid",
           "minimo": 2,
-          "saldo": 3,
+          "saldo": 1,
           "historico": [
             {
               "data_hora": "18/08/2026 19:09:19",
@@ -4526,6 +4558,14 @@
               "saldo_anterior": 4,
               "saldo_novo": 3,
               "diferenca": -1
+            },
+            {
+              "data_hora": "02/11/2026 11:20:09",
+              "unidade": "CPQ08",
+              "tipo": "AJUSTE",
+              "saldo_anterior": 3,
+              "saldo_novo": 1,
+              "diferenca": -2
             }
           ]
         },
@@ -4672,7 +4712,7 @@
           "material": "Papel Toalha",
           "unidade": "pacote",
           "minimo": 2,
-          "saldo": 2,
+          "saldo": 0,
           "historico": [
             {
               "data_hora": "18/08/2026 19:09:19",
@@ -4801,6 +4841,14 @@
               "saldo_anterior": 0,
               "saldo_novo": 2,
               "diferenca": 2
+            },
+            {
+              "data_hora": "02/11/2026 11:20:09",
+              "unidade": "CPQ08",
+              "tipo": "AJUSTE",
+              "saldo_anterior": 2,
+              "saldo_novo": 0,
+              "diferenca": -2
             }
           ]
         },
@@ -5066,7 +5114,7 @@
           ]
         }
       ],
-      "ultima_atualizacao": "29/10/2026 11:50"
+      "ultima_atualizacao": "02/11/2026 11:20"
     }
   }
 }
