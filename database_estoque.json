@@ -4605,7 +4605,7 @@
           "material": "Detergente",
           "unidade": "unid",
           "minimo": 2,
-          "saldo": 1,
+          "saldo": 2,
           "historico": [
             {
               "data_hora": "18/08/2026 19:09:19",
@@ -4654,6 +4654,14 @@
               "saldo_anterior": 3,
               "saldo_novo": 1,
               "diferenca": -2
+            },
+            {
+              "data_hora": "05/11/2026 12:12:02",
+              "unidade": "CPQ08",
+              "tipo": "AJUSTE",
+              "saldo_anterior": 1,
+              "saldo_novo": 2,
+              "diferenca": 1
             }
           ]
         },
@@ -4800,7 +4808,7 @@
           "material": "Papel Toalha",
           "unidade": "pacote",
           "minimo": 2,
-          "saldo": 0,
+          "saldo": 2,
           "historico": [
             {
               "data_hora": "18/08/2026 19:09:19",
@@ -4937,6 +4945,14 @@
               "saldo_anterior": 2,
               "saldo_novo": 0,
               "diferenca": -2
+            },
+            {
+              "data_hora": "05/11/2026 12:12:02",
+              "unidade": "CPQ08",
+              "tipo": "AJUSTE",
+              "saldo_anterior": 0,
+              "saldo_novo": 2,
+              "diferenca": 2
             }
           ]
         },
@@ -5202,7 +5218,7 @@
           ]
         }
       ],
-      "ultima_atualizacao": "02/11/2026 11:20"
+      "ultima_atualizacao": "05/11/2026 12:12"
     }
   }
 }
