@@ -462,7 +462,7 @@
           "material": "Fita Durex Azul",
           "unidade": "unid",
           "minimo": 10,
-          "saldo": 9,
+          "saldo": 15,
           "historico": [
             {
               "data_hora": "18/08/2026 20:59:39",
@@ -607,6 +607,14 @@
               "saldo_anterior": 10,
               "saldo_novo": 9,
               "diferenca": -1
+            },
+            {
+              "data_hora": "05/11/2026 12:06:27",
+              "unidade": "SAO12",
+              "tipo": "AJUSTE",
+              "saldo_anterior": 9,
+              "saldo_novo": 15,
+              "diferenca": 6
             }
           ]
         },
@@ -1396,7 +1404,7 @@
           "material": "Sulfite",
           "unidade": "unid",
           "minimo": 5,
-          "saldo": 4,
+          "saldo": 5,
           "historico": [
             {
               "data_hora": "18/08/2026 20:59:39",
@@ -1501,6 +1509,14 @@
               "saldo_anterior": 5,
               "saldo_novo": 4,
               "diferenca": -1
+            },
+            {
+              "data_hora": "05/11/2026 12:06:27",
+              "unidade": "SAO12",
+              "tipo": "AJUSTE",
+              "saldo_anterior": 4,
+              "saldo_novo": 5,
+              "diferenca": 1
             }
           ]
         },
@@ -2478,7 +2494,7 @@
           "material": "Papel Toalha",
           "unidade": "pacote",
           "minimo": 2,
-          "saldo": 1,
+          "saldo": 2,
           "historico": [
             {
               "data_hora": "18/08/2026 20:59:39",
@@ -2591,6 +2607,14 @@
               "saldo_anterior": 2,
               "saldo_novo": 1,
               "diferenca": -1
+            },
+            {
+              "data_hora": "05/11/2026 12:06:27",
+              "unidade": "SAO12",
+              "tipo": "AJUSTE",
+              "saldo_anterior": 1,
+              "saldo_novo": 2,
+              "diferenca": 1
             }
           ]
         },
@@ -2800,7 +2824,7 @@
           ]
         }
       ],
-      "ultima_atualizacao": "04/11/2026 17:21"
+      "ultima_atualizacao": "05/11/2026 12:06"
     },
     "CPQ08": {
       "itens": [
