@@ -3062,7 +3062,7 @@
           "material": "Filme Stretch",
           "unidade": "unid",
           "minimo": 40,
-          "saldo": 43,
+          "saldo": 241,
           "historico": [
             {
               "data_hora": "18/08/2026 19:09:19",
@@ -3263,6 +3263,14 @@
               "saldo_anterior": 65,
               "saldo_novo": 43,
               "diferenca": -22
+            },
+            {
+              "data_hora": "12/11/2026 13:06:20",
+              "unidade": "CPQ08",
+              "tipo": "AJUSTE",
+              "saldo_anterior": 43,
+              "saldo_novo": 241,
+              "diferenca": 198
             }
           ]
         },
@@ -3271,7 +3279,7 @@
           "material": "Lacre",
           "unidade": "caixa",
           "minimo": 2,
-          "saldo": 5,
+          "saldo": 9,
           "historico": [
             {
               "data_hora": "18/08/2026 19:09:19",
@@ -3392,6 +3400,14 @@
               "saldo_anterior": 4,
               "saldo_novo": 5,
               "diferenca": 1
+            },
+            {
+              "data_hora": "12/11/2026 13:06:20",
+              "unidade": "CPQ08",
+              "tipo": "AJUSTE",
+              "saldo_anterior": 5,
+              "saldo_novo": 9,
+              "diferenca": 4
             }
           ]
         },
@@ -3457,7 +3473,7 @@
           "material": "Fita Durex Transparente",
           "unidade": "caixa",
           "minimo": 2,
-          "saldo": 6,
+          "saldo": 8,
           "historico": [
             {
               "data_hora": "18/08/2026 19:09:19",
@@ -3530,6 +3546,14 @@
               "saldo_anterior": 8,
               "saldo_novo": 6,
               "diferenca": -2
+            },
+            {
+              "data_hora": "12/11/2026 13:06:20",
+              "unidade": "CPQ08",
+              "tipo": "AJUSTE",
+              "saldo_anterior": 6,
+              "saldo_novo": 8,
+              "diferenca": 2
             }
           ]
         },
@@ -3769,7 +3793,7 @@
           "material": "Etiqueta Zebra",
           "unidade": "unid",
           "minimo": 10,
-          "saldo": 210,
+          "saldo": 330,
           "historico": [
             {
               "data_hora": "18/08/2026 19:09:19",
@@ -3818,6 +3842,14 @@
               "saldo_anterior": 226,
               "saldo_novo": 210,
               "diferenca": -16
+            },
+            {
+              "data_hora": "12/11/2026 13:06:20",
+              "unidade": "CPQ08",
+              "tipo": "AJUSTE",
+              "saldo_anterior": 210,
+              "saldo_novo": 330,
+              "diferenca": 120
             }
           ]
         },
@@ -3899,7 +3931,7 @@
           "material": "Saco Contentor Transparente",
           "unidade": "pacote",
           "minimo": 1,
-          "saldo": 1,
+          "saldo": 4,
           "historico": [
             {
               "data_hora": "18/08/2026 19:09:19",
@@ -3932,6 +3964,14 @@
               "saldo_anterior": 0,
               "saldo_novo": 1,
               "diferenca": 1
+            },
+            {
+              "data_hora": "12/11/2026 13:06:20",
+              "unidade": "CPQ08",
+              "tipo": "AJUSTE",
+              "saldo_anterior": 1,
+              "saldo_novo": 4,
+              "diferenca": 3
             }
           ]
         },
@@ -5322,7 +5362,7 @@
           ]
         }
       ],
-      "ultima_atualizacao": "11/11/2026 11:43"
+      "ultima_atualizacao": "12/11/2026 13:06"
     }
   }
 }
