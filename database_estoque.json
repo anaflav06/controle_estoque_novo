@@ -4790,7 +4790,7 @@
           "material": "Multiuso",
           "unidade": "unid",
           "minimo": 1,
-          "saldo": 0,
+          "saldo": 4,
           "historico": [
             {
               "data_hora": "18/08/2026 19:09:19",
@@ -4823,6 +4823,14 @@
               "saldo_anterior": 2,
               "saldo_novo": 0,
               "diferenca": -2
+            },
+            {
+              "data_hora": "12/11/2026 13:06:35",
+              "unidade": "CPQ08",
+              "tipo": "AJUSTE",
+              "saldo_anterior": 0,
+              "saldo_novo": 4,
+              "diferenca": 4
             }
           ]
         },
