@@ -4453,7 +4453,7 @@
           "material": "Estilete",
           "unidade": "unid",
           "minimo": 5,
-          "saldo": 6,
+          "saldo": 3,
           "historico": [
             {
               "data_hora": "18/08/2026 19:09:19",
@@ -4494,6 +4494,14 @@
               "saldo_anterior": 13,
               "saldo_novo": 6,
               "diferenca": -7
+            },
+            {
+              "data_hora": "27/11/2026 18:54:52",
+              "unidade": "CPQ08",
+              "tipo": "AJUSTE",
+              "saldo_anterior": 6,
+              "saldo_novo": 3,
+              "diferenca": -3
             }
           ]
         },
